@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "d:/study/Grade3/hardware/REAL/IP/ip_repo/UART_LITE_TX/UART_LITE_TX_1.0/src/uart_tx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_tx
+INFO: [VRFC 10-2263] Analyzing Verilog file "d:/study/Grade3/hardware/REAL/IP/managed_ip_project/managed_ip_project.tmp/uart_lite_tx_v1_0_v1_0_project/UART_LITE_TX_v1_0_v1_0_project.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "d:/study/Grade3/hardware/REAL/IP/managed_ip_project/managed_ip_project.tmp/uart_lite_tx_v1_0_v1_0_project/UART_LITE_TX_v1_0_v1_0_project.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

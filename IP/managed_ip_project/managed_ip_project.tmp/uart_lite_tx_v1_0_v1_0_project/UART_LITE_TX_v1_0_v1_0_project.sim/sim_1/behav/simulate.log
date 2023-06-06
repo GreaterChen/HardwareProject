@@ -1,0 +1,4 @@
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+$finish called at time : 2100 ns : File "d:/study/Grade3/hardware/REAL/IP/managed_ip_project/managed_ip_project.tmp/uart_lite_tx_v1_0_v1_0_project/UART_LITE_TX_v1_0_v1_0_project.srcs/sim_1/new/tb.v" Line 46
+$finish called at time : 2100 ns : File "d:/study/Grade3/hardware/REAL/IP/managed_ip_project/managed_ip_project.tmp/uart_lite_tx_v1_0_v1_0_project/UART_LITE_TX_v1_0_v1_0_project.srcs/sim_1/new/tb.v" Line 46

@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Tue May 23 17:39:57 2023
+# Process ID: 14972
+# Log file: D:/study/Grade3/hardware/REAL/IP/ip_repo/UART_LITE_TX/edit_UART_LITE_TX_v1_0.runs/synth_1/UART_LITE_TX_v1_0.vds
+# Journal file: D:/study/Grade3/hardware/REAL/IP/ip_repo/UART_LITE_TX/edit_UART_LITE_TX_v1_0.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source UART_LITE_TX_v1_0.tcl -notrace

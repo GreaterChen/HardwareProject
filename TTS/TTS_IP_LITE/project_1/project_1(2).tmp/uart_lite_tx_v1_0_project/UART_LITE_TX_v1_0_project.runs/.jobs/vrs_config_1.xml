@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="synth_1" LaunchDir="d:/study/grade3/hardware/real/tts/tts_ip_lite/project_1/project_1(2).tmp/uart_lite_tx_v1_0_project/UART_LITE_TX_v1_0_project.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+</Runs>
+

@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Webtalk v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Sat Jun 03 16:10:53 2023
+# Process ID: 14700
+# Log file: D:/study/Grade3/hardware/REAL/TTS/TTS_IP_LITE/project_1/webtalk.log
+# Journal file: D:/study/Grade3/hardware/REAL/TTS/TTS_IP_LITE/project_1\webtalk.jou
+#-----------------------------------------------------------
+source d:/study/grade3/hardware/real/tts/tts_ip_lite/project_1/project_1.tmp/uart_lite_tx_v1_0_project/UART_LITE_TX_v1_0_project.hw/webtalk/labtool_webtalk.tcl -notrace
+
+    while executing
+"webtalk_transmit -clientid 310253985 -regid "" -xml d:/study/grade3/hardware/real/tts/tts_ip_lite/project_1/project_1.tmp/uart_lite_tx_v1_0_project/UA..."
+    (file "d:/study/grade3/hardware/real/tts/tts_ip_lite/project_1/project_1.tmp/uart_lite_tx_v1_0_project/UART_LITE_TX_v1_0_project.hw/webtalk/labtool_webtalk.t..." line 26)
+INFO: [Common 17-206] Exiting Webtalk at Sat Jun 03 16:10:55 2023...

@@ -1,0 +1,16 @@
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: D:/softwares/Vivado/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 1fe7711d2e6148da8b9fe299dc8799ad --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "d:/study/Grade3/hardware/REAL/IP/managed_ip_project/managed_ip_project.tmp/uart_lite_tx_v1_0_v1_0_project/UART_LITE_TX_v1_0_v1_0_project.sim/sim_1/behav/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "d:/study/Grade3/hardware/REAL/IP/managed_ip_project/managed_ip_project.tmp/uart_lite_tx_v1_0_v1_0_project/UART_LITE_TX_v1_0_v1_0_project.sim/sim_1/behav/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.uart_tx
+Compiling module xil_defaultlib.tb
+Compiling module xil_defaultlib.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot tb_behav

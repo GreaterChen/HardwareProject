@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="8" />
+   <wvobject db_ref_id="1" fp_name="/tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb/message" type="array">
+      <obj_property name="ElementShortName">message[7:0]</obj_property>
+      <obj_property name="ObjectShortName">message[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb/ready" type="logic">
+      <obj_property name="ElementShortName">ready</obj_property>
+      <obj_property name="ObjectShortName">ready</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb/uut/s_start" type="logic">
+      <obj_property name="ElementShortName">s_start</obj_property>
+      <obj_property name="ObjectShortName">s_start</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb/tx" type="logic">
+      <obj_property name="ElementShortName">tx</obj_property>
+      <obj_property name="ObjectShortName">tx</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb/uut/over" type="logic">
+      <obj_property name="ElementShortName">over</obj_property>
+      <obj_property name="ObjectShortName">over</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb/uut/cnt_message" type="array">
+      <obj_property name="ElementShortName">cnt_message[4:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt_message[4:0]</obj_property>
+   </wvobject>
+</wave_config>

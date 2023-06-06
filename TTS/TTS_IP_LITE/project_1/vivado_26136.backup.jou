@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Sat Jun 03 16:09:58 2023
+# Process ID: 11488
+# Log file: D:/study/Grade3/hardware/REAL/TTS/TTS_IP_LITE/project_1/vivado.log
+# Journal file: D:/study/Grade3/hardware/REAL/TTS/TTS_IP_LITE/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/study/Grade3/hardware/REAL/TTS/TTS_IP_LITE/project_1/project_1.xpr
+open_bd_design {D:/study/Grade3/hardware/REAL/TTS/TTS_IP_LITE/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd}
+ipx::edit_ip_in_project -upgrade true -name UART_LITE_TX_v1_0_project -directory D:/study/Grade3/hardware/REAL/TTS/TTS_IP_LITE/project_1/project_1.tmp/UART_LITE_TX_v1_0_project d:/study/Grade3/hardware/REAL/IP/ip_repo/UART_LITE_TX/UART_LITE_TX_1.0/component.xml
+update_compile_order -fileset sim_1
+close_project
+regenerate_bd_layout
+launch_sdk -workspace D:/study/Grade3/hardware/REAL/TTS/TTS_IP_LITE/project_1/project_1.sdk -hwspec D:/study/Grade3/hardware/REAL/TTS/TTS_IP_LITE/project_1/project_1.sdk/design_1_wrapper.hdf

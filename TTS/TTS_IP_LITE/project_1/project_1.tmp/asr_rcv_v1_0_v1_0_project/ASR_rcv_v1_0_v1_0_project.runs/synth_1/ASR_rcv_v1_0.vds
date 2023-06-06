@@ -1,0 +1,337 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Sat Jun 03 20:51:28 2023
+# Process ID: 6324
+# Log file: d:/study/Grade3/hardware/REAL/TTS/TTS_IP_LITE/project_1/project_1.tmp/asr_rcv_v1_0_v1_0_project/ASR_rcv_v1_0_v1_0_project.runs/synth_1/ASR_rcv_v1_0.vds
+# Journal file: d:/study/Grade3/hardware/REAL/TTS/TTS_IP_LITE/project_1/project_1.tmp/asr_rcv_v1_0_v1_0_project/ASR_rcv_v1_0_v1_0_project.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source ASR_rcv_v1_0.tcl -notrace
+Command: synth_design -top ASR_rcv_v1_0 -part xc7z020clg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:04 . Memory (MB): peak = 261.641 ; gain = 89.559
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'ASR_rcv_v1_0' [d:/study/grade3/hardware/real/ip/ip_repo/asr_rcv/asr_rcv_1.0/hdl/ASR_rcv_v1_0.v:4]
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'ASR_rcv_v1_0_S00_AXI' [d:/study/grade3/hardware/real/ip/ip_repo/asr_rcv/asr_rcv_1.0/hdl/ASR_rcv_v1_0_S00_AXI.v:4]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+	Parameter ADDR_LSB bound to: 2 - type: integer 
+	Parameter OPT_MEM_ADDR_BITS bound to: 1 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'asr_rcv' [d:/study/grade3/hardware/real/ip/ip_repo/asr_rcv/asr_rcv_1.0/src/asr_rcv.v:1]
+INFO: [Synth 8-256] done synthesizing module 'asr_rcv' (1#1) [d:/study/grade3/hardware/real/ip/ip_repo/asr_rcv/asr_rcv_1.0/src/asr_rcv.v:1]
+INFO: [Synth 8-226] default block is never used [d:/study/grade3/hardware/real/ip/ip_repo/asr_rcv/asr_rcv_1.0/hdl/ASR_rcv_v1_0_S00_AXI.v:226]
+INFO: [Synth 8-226] default block is never used [d:/study/grade3/hardware/real/ip/ip_repo/asr_rcv/asr_rcv_1.0/hdl/ASR_rcv_v1_0_S00_AXI.v:367]
+INFO: [Synth 8-256] done synthesizing module 'ASR_rcv_v1_0_S00_AXI' (2#1) [d:/study/grade3/hardware/real/ip/ip_repo/asr_rcv/asr_rcv_1.0/hdl/ASR_rcv_v1_0_S00_AXI.v:4]
+INFO: [Synth 8-256] done synthesizing module 'ASR_rcv_v1_0' (3#1) [d:/study/grade3/hardware/real/ip/ip_repo/asr_rcv/asr_rcv_1.0/hdl/ASR_rcv_v1_0.v:4]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 295.992 ; gain = 123.910
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 295.992 ; gain = 123.910
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 295.992 ; gain = 123.910
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 303.273 ; gain = 131.191
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 6     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 3     
+	   4 Input     32 Bit        Muxes := 4     
+	   2 Input      3 Bit        Muxes := 1     
+	   4 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 7     
+	   5 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module asr_rcv 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      3 Bit        Muxes := 1     
+	   4 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 1     
+Module ASR_rcv_v1_0_S00_AXI 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 5     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 3     
+	   4 Input     32 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 6     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 452.785 ; gain = 280.703
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3331] design ASR_rcv_v1_0 has unconnected port s00_axi_awprot[2]
+WARNING: [Synth 8-3331] design ASR_rcv_v1_0 has unconnected port s00_axi_awprot[1]
+WARNING: [Synth 8-3331] design ASR_rcv_v1_0 has unconnected port s00_axi_awprot[0]
+WARNING: [Synth 8-3331] design ASR_rcv_v1_0 has unconnected port s00_axi_arprot[2]
+WARNING: [Synth 8-3331] design ASR_rcv_v1_0 has unconnected port s00_axi_arprot[1]
+WARNING: [Synth 8-3331] design ASR_rcv_v1_0 has unconnected port s00_axi_arprot[0]
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 454.039 ; gain = 281.957
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 454.039 ; gain = 281.957
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ASR_rcv_v1_0_S00_AXI_inst/asr/out_msg_reg[31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ASR_rcv_v1_0_S00_AXI_inst/axi_rresp_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ASR_rcv_v1_0_S00_AXI_inst/axi_bresp_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ASR_rcv_v1_0_S00_AXI_inst/slv_reg0_reg[31] )
+WARNING: [Synth 8-3332] Sequential element (\ASR_rcv_v1_0_S00_AXI_inst/axi_bresp_reg[1] ) is unused and will be removed from module ASR_rcv_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ASR_rcv_v1_0_S00_AXI_inst/axi_bresp_reg[0] ) is unused and will be removed from module ASR_rcv_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ASR_rcv_v1_0_S00_AXI_inst/axi_araddr_reg[1] ) is unused and will be removed from module ASR_rcv_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ASR_rcv_v1_0_S00_AXI_inst/axi_araddr_reg[0] ) is unused and will be removed from module ASR_rcv_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ASR_rcv_v1_0_S00_AXI_inst/axi_awaddr_reg[1] ) is unused and will be removed from module ASR_rcv_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ASR_rcv_v1_0_S00_AXI_inst/axi_awaddr_reg[0] ) is unused and will be removed from module ASR_rcv_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ASR_rcv_v1_0_S00_AXI_inst/asr/out_msg_reg[31] ) is unused and will be removed from module ASR_rcv_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ASR_rcv_v1_0_S00_AXI_inst/asr/out_msg_reg[30] ) is unused and will be removed from module ASR_rcv_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ASR_rcv_v1_0_S00_AXI_inst/asr/out_msg_reg[29] ) is unused and will be removed from module ASR_rcv_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ASR_rcv_v1_0_S00_AXI_inst/asr/out_msg_reg[28] ) is unused and will be removed from module ASR_rcv_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ASR_rcv_v1_0_S00_AXI_inst/asr/out_msg_reg[27] ) is unused and will be removed from module ASR_rcv_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ASR_rcv_v1_0_S00_AXI_inst/asr/out_msg_reg[26] ) is unused and will be removed from module ASR_rcv_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ASR_rcv_v1_0_S00_AXI_inst/asr/out_msg_reg[25] ) is unused and will be removed from module ASR_rcv_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ASR_rcv_v1_0_S00_AXI_inst/asr/out_msg_reg[24] ) is unused and will be removed from module ASR_rcv_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ASR_rcv_v1_0_S00_AXI_inst/asr/out_msg_reg[23] ) is unused and will be removed from module ASR_rcv_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ASR_rcv_v1_0_S00_AXI_inst/asr/out_msg_reg[22] ) is unused and will be removed from module ASR_rcv_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ASR_rcv_v1_0_S00_AXI_inst/asr/out_msg_reg[21] ) is unused and will be removed from module ASR_rcv_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ASR_rcv_v1_0_S00_AXI_inst/asr/out_msg_reg[20] ) is unused and will be removed from module ASR_rcv_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ASR_rcv_v1_0_S00_AXI_inst/asr/out_msg_reg[19] ) is unused and will be removed from module ASR_rcv_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ASR_rcv_v1_0_S00_AXI_inst/asr/out_msg_reg[18] ) is unused and will be removed from module ASR_rcv_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ASR_rcv_v1_0_S00_AXI_inst/asr/out_msg_reg[17] ) is unused and will be removed from module ASR_rcv_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ASR_rcv_v1_0_S00_AXI_inst/asr/out_msg_reg[16] ) is unused and will be removed from module ASR_rcv_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ASR_rcv_v1_0_S00_AXI_inst/asr/out_msg_reg[15] ) is unused and will be removed from module ASR_rcv_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ASR_rcv_v1_0_S00_AXI_inst/asr/out_msg_reg[14] ) is unused and will be removed from module ASR_rcv_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ASR_rcv_v1_0_S00_AXI_inst/asr/out_msg_reg[13] ) is unused and will be removed from module ASR_rcv_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ASR_rcv_v1_0_S00_AXI_inst/asr/out_msg_reg[12] ) is unused and will be removed from module ASR_rcv_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ASR_rcv_v1_0_S00_AXI_inst/asr/out_msg_reg[11] ) is unused and will be removed from module ASR_rcv_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ASR_rcv_v1_0_S00_AXI_inst/asr/out_msg_reg[10] ) is unused and will be removed from module ASR_rcv_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ASR_rcv_v1_0_S00_AXI_inst/asr/out_msg_reg[9] ) is unused and will be removed from module ASR_rcv_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ASR_rcv_v1_0_S00_AXI_inst/asr/out_msg_reg[8] ) is unused and will be removed from module ASR_rcv_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ASR_rcv_v1_0_S00_AXI_inst/asr/out_msg_reg[7] ) is unused and will be removed from module ASR_rcv_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ASR_rcv_v1_0_S00_AXI_inst/asr/out_msg_reg[6] ) is unused and will be removed from module ASR_rcv_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ASR_rcv_v1_0_S00_AXI_inst/asr/out_msg_reg[5] ) is unused and will be removed from module ASR_rcv_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ASR_rcv_v1_0_S00_AXI_inst/asr/out_msg_reg[4] ) is unused and will be removed from module ASR_rcv_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ASR_rcv_v1_0_S00_AXI_inst/asr/out_msg_reg[3] ) is unused and will be removed from module ASR_rcv_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ASR_rcv_v1_0_S00_AXI_inst/slv_reg0_reg[31] ) is unused and will be removed from module ASR_rcv_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ASR_rcv_v1_0_S00_AXI_inst/slv_reg0_reg[30] ) is unused and will be removed from module ASR_rcv_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ASR_rcv_v1_0_S00_AXI_inst/slv_reg0_reg[29] ) is unused and will be removed from module ASR_rcv_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ASR_rcv_v1_0_S00_AXI_inst/slv_reg0_reg[28] ) is unused and will be removed from module ASR_rcv_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ASR_rcv_v1_0_S00_AXI_inst/slv_reg0_reg[27] ) is unused and will be removed from module ASR_rcv_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ASR_rcv_v1_0_S00_AXI_inst/slv_reg0_reg[26] ) is unused and will be removed from module ASR_rcv_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ASR_rcv_v1_0_S00_AXI_inst/slv_reg0_reg[25] ) is unused and will be removed from module ASR_rcv_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ASR_rcv_v1_0_S00_AXI_inst/slv_reg0_reg[24] ) is unused and will be removed from module ASR_rcv_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ASR_rcv_v1_0_S00_AXI_inst/slv_reg0_reg[23] ) is unused and will be removed from module ASR_rcv_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ASR_rcv_v1_0_S00_AXI_inst/slv_reg0_reg[22] ) is unused and will be removed from module ASR_rcv_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ASR_rcv_v1_0_S00_AXI_inst/slv_reg0_reg[21] ) is unused and will be removed from module ASR_rcv_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ASR_rcv_v1_0_S00_AXI_inst/slv_reg0_reg[20] ) is unused and will be removed from module ASR_rcv_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ASR_rcv_v1_0_S00_AXI_inst/slv_reg0_reg[19] ) is unused and will be removed from module ASR_rcv_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ASR_rcv_v1_0_S00_AXI_inst/slv_reg0_reg[18] ) is unused and will be removed from module ASR_rcv_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ASR_rcv_v1_0_S00_AXI_inst/slv_reg0_reg[17] ) is unused and will be removed from module ASR_rcv_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ASR_rcv_v1_0_S00_AXI_inst/slv_reg0_reg[16] ) is unused and will be removed from module ASR_rcv_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ASR_rcv_v1_0_S00_AXI_inst/slv_reg0_reg[15] ) is unused and will be removed from module ASR_rcv_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ASR_rcv_v1_0_S00_AXI_inst/slv_reg0_reg[14] ) is unused and will be removed from module ASR_rcv_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ASR_rcv_v1_0_S00_AXI_inst/slv_reg0_reg[13] ) is unused and will be removed from module ASR_rcv_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ASR_rcv_v1_0_S00_AXI_inst/slv_reg0_reg[12] ) is unused and will be removed from module ASR_rcv_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ASR_rcv_v1_0_S00_AXI_inst/slv_reg0_reg[11] ) is unused and will be removed from module ASR_rcv_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ASR_rcv_v1_0_S00_AXI_inst/slv_reg0_reg[10] ) is unused and will be removed from module ASR_rcv_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ASR_rcv_v1_0_S00_AXI_inst/slv_reg0_reg[9] ) is unused and will be removed from module ASR_rcv_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ASR_rcv_v1_0_S00_AXI_inst/slv_reg0_reg[8] ) is unused and will be removed from module ASR_rcv_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ASR_rcv_v1_0_S00_AXI_inst/slv_reg0_reg[7] ) is unused and will be removed from module ASR_rcv_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ASR_rcv_v1_0_S00_AXI_inst/slv_reg0_reg[6] ) is unused and will be removed from module ASR_rcv_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ASR_rcv_v1_0_S00_AXI_inst/slv_reg0_reg[5] ) is unused and will be removed from module ASR_rcv_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ASR_rcv_v1_0_S00_AXI_inst/slv_reg0_reg[4] ) is unused and will be removed from module ASR_rcv_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ASR_rcv_v1_0_S00_AXI_inst/slv_reg0_reg[3] ) is unused and will be removed from module ASR_rcv_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ASR_rcv_v1_0_S00_AXI_inst/axi_rresp_reg[1] ) is unused and will be removed from module ASR_rcv_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\ASR_rcv_v1_0_S00_AXI_inst/axi_rresp_reg[0] ) is unused and will be removed from module ASR_rcv_v1_0.
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 472.863 ; gain = 300.781
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 472.863 ; gain = 300.781
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 472.863 ; gain = 300.781
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 472.863 ; gain = 300.781
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 472.934 ; gain = 300.852
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 472.934 ; gain = 300.852
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 472.934 ; gain = 300.852
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 472.934 ; gain = 300.852
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports : Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 472.934 ; gain = 300.852
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 472.934 ; gain = 300.852
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |BUFG |     2|
+|2     |LUT1 |     1|
+|3     |LUT2 |     1|
+|4     |LUT3 |     3|
+|5     |LUT4 |    16|
+|6     |LUT5 |    36|
+|7     |LUT6 |     3|
+|8     |FDRE |   143|
+|9     |IBUF |    56|
+|10    |OBUF |    41|
++------+-----+------+
+
+Report Instance Areas: 
++------+----------------------------+---------------------+------+
+|      |Instance                    |Module               |Cells |
++------+----------------------------+---------------------+------+
+|1     |top                         |                     |   302|
+|2     |  ASR_rcv_v1_0_S00_AXI_inst |ASR_rcv_v1_0_S00_AXI |   203|
+|3     |    asr                     |asr_rcv              |     7|
++------+----------------------------+---------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 472.934 ; gain = 300.852
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 72 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 472.934 ; gain = 265.250
+Synthesis Optimization Complete : Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 472.934 ; gain = 300.852
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 56 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+21 Infos, 72 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 532.746 ; gain = 325.344
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.036 . Memory (MB): peak = 532.746 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sat Jun 03 20:51:37 2023...

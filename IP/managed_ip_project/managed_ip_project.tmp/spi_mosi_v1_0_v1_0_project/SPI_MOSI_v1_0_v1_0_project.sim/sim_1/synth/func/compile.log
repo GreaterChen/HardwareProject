@@ -1,0 +1,13 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "d:/study/Grade3/hardware/REAL/IP/managed_ip_project/managed_ip_project.tmp/spi_mosi_v1_0_v1_0_project/SPI_MOSI_v1_0_v1_0_project.sim/sim_1/synth/func/spi_mosi_tb_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SPI_MOSI_v1_0
+INFO: [VRFC 10-311] analyzing module SPI_MOSI_v1_0_SPI_MOSI
+INFO: [VRFC 10-311] analyzing module spi_mosi
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "d:/study/Grade3/hardware/REAL/IP/managed_ip_project/managed_ip_project.tmp/spi_mosi_v1_0_v1_0_project/SPI_MOSI_v1_0_v1_0_project.srcs/sources_1/new/spi_mosi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spi_mosi
+WARNING: [VRFC 10-1195] overwriting previous definition of module spi_mosi [d:/study/Grade3/hardware/REAL/IP/managed_ip_project/managed_ip_project.tmp/spi_mosi_v1_0_v1_0_project/SPI_MOSI_v1_0_v1_0_project.srcs/sources_1/new/spi_mosi.v:2]
+INFO: [VRFC 10-2263] Analyzing Verilog file "d:/study/Grade3/hardware/REAL/IP/ip_repo/SPI_MOSI/SPI_MOSI_1.0/src/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spi_mosi_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "d:/study/Grade3/hardware/REAL/IP/managed_ip_project/managed_ip_project.tmp/spi_mosi_v1_0_v1_0_project/SPI_MOSI_v1_0_v1_0_project.sim/sim_1/synth/func/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+WARNING: [VRFC 10-1195] overwriting previous definition of module glbl [d:/study/Grade3/hardware/REAL/IP/managed_ip_project/managed_ip_project.tmp/spi_mosi_v1_0_v1_0_project/SPI_MOSI_v1_0_v1_0_project.sim/sim_1/synth/func/glbl.v:6]

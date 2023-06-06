@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "d:/study/Grade3/hardware/REAL/IP/managed_ip_project/managed_ip_project.tmp/spi_mosi_v1_0_v1_0_project/SPI_MOSI_v1_0_v1_0_project.srcs/sources_1/new/spi_mosi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spi_mosi
+INFO: [VRFC 10-2263] Analyzing Verilog file "d:/study/Grade3/hardware/REAL/IP/ip_repo/SPI_MOSI/SPI_MOSI_1.0/src/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spi_mosi_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "d:/study/Grade3/hardware/REAL/IP/managed_ip_project/managed_ip_project.tmp/spi_mosi_v1_0_v1_0_project/SPI_MOSI_v1_0_v1_0_project.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

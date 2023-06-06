@@ -1,0 +1,4 @@
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+$finish called at time : 320 ns : File "d:/study/Grade3/hardware/REAL/IP/ip_repo/SPI_MOSI/SPI_MOSI_1.0/src/spi_tb.v" Line 53
+$finish called at time : 320 ns : File "d:/study/Grade3/hardware/REAL/IP/ip_repo/SPI_MOSI/SPI_MOSI_1.0/src/spi_tb.v" Line 53

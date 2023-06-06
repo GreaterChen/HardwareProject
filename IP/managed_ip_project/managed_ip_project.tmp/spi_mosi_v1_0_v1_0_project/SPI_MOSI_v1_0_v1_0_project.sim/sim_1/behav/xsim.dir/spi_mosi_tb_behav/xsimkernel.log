@@ -1,0 +1,4 @@
+Running: xsim.dir/spi_mosi_tb_behav/xsimk.exe -simmode gui -wdb spi_mosi_tb_behav.wdb -simrunnum 0 -socket 14749
+Design successfully loaded
+Design Loading Memory Usage: 22292 KB (Peak: 22292 KB)
+Design Loading CPU Usage: 155 ms

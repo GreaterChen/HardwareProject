@@ -1,0 +1,142 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Mon May 22 19:13:05 2023
+# Process ID: 26232
+# Log file: D:/study/Grade3/hardware/REAL/IP/managed_ip_project/vivado.log
+# Journal file: D:/study/Grade3/hardware/REAL/IP/managed_ip_project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/study/Grade3/hardware/REAL/IP/managed_ip_project/managed_ip_project.xpr
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'D:/study/Grade3/hardware/REAL/IP/ip_repo/UART_STREAM_TX_1.0'.
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'D:/study/Grade3/hardware/REAL/IP/ip_repo/SPI_TX_STREAM_1.0'.
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'D:/study/Grade3/hardware/REAL/IP/ip_repo/UART_STREAM_1.0'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/study/Grade3/hardware/REAL/IP/ip_repo/UART_STREAM_TX_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/study/Grade3/hardware/REAL/IP/ip_repo/SPI_TX_STREAM_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/study/Grade3/hardware/REAL/IP/ip_repo/UART_STREAM_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/study/Grade3/hardware/REAL/IP/ip_repo/SPI_MOSI/SPI_MOSI_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/study/Grade3/hardware/REAL/IP/ip_repo/UART_TX/UART_TX_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/softwares/Vivado/Vivado/2015.2/data/ip'.
+WARNING: [IP_Flow 19-2162] IP 'UART_TX_0' is locked:
+* The IP Data in the repository is incompatible with the current instance (despite having identical Version and Revision). You will need to update the IP before viewing the customization and generating outputs.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+set_property  ip_repo_paths  {d:/study/Grade3/hardware/REAL/IP/ip_repo/SPI_TX_STREAM_1.0 d:/study/Grade3/hardware/REAL/IP/ip_repo/UART_STREAM_1.0 d:/study/Grade3/hardware/REAL/IP/ip_repo/SPI_MOSI/SPI_MOSI_1.0 d:/study/Grade3/hardware/REAL/IP/ip_repo/UART_TX/UART_TX_1.0} [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/study/Grade3/hardware/REAL/IP/ip_repo/SPI_TX_STREAM_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/study/Grade3/hardware/REAL/IP/ip_repo/UART_STREAM_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/study/Grade3/hardware/REAL/IP/ip_repo/SPI_MOSI/SPI_MOSI_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/study/Grade3/hardware/REAL/IP/ip_repo/UART_TX/UART_TX_1.0'.
+set_property  ip_repo_paths  {d:/study/Grade3/hardware/REAL/IP/ip_repo/UART_STREAM_1.0 d:/study/Grade3/hardware/REAL/IP/ip_repo/SPI_MOSI/SPI_MOSI_1.0 d:/study/Grade3/hardware/REAL/IP/ip_repo/UART_TX/UART_TX_1.0} [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/study/Grade3/hardware/REAL/IP/ip_repo/UART_STREAM_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/study/Grade3/hardware/REAL/IP/ip_repo/SPI_MOSI/SPI_MOSI_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/study/Grade3/hardware/REAL/IP/ip_repo/UART_TX/UART_TX_1.0'.
+set_property  ip_repo_paths  {d:/study/Grade3/hardware/REAL/IP/ip_repo/SPI_MOSI/SPI_MOSI_1.0 d:/study/Grade3/hardware/REAL/IP/ip_repo/UART_TX/UART_TX_1.0} [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/study/Grade3/hardware/REAL/IP/ip_repo/SPI_MOSI/SPI_MOSI_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/study/Grade3/hardware/REAL/IP/ip_repo/UART_TX/UART_TX_1.0'.
+set_property  ip_repo_paths  {d:/study/Grade3/hardware/REAL/IP/ip_repo/SPI_MOSI/SPI_MOSI_1.0 D:/study/Grade3/hardware/REAL/IP/ip_repo/UART_TX_STREAM d:/study/Grade3/hardware/REAL/IP/ip_repo/UART_TX/UART_TX_1.0} [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/study/Grade3/hardware/REAL/IP/ip_repo/SPI_MOSI/SPI_MOSI_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/study/Grade3/hardware/REAL/IP/ip_repo/UART_TX_STREAM'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/study/Grade3/hardware/REAL/IP/ip_repo/UART_TX/UART_TX_1.0'.
+set_property  ip_repo_paths  {d:/study/Grade3/hardware/REAL/IP/ip_repo/SPI_MOSI/SPI_MOSI_1.0 d:/study/Grade3/hardware/REAL/IP/ip_repo/UART_TX/UART_TX_1.0} [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/study/Grade3/hardware/REAL/IP/ip_repo/SPI_MOSI/SPI_MOSI_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/study/Grade3/hardware/REAL/IP/ip_repo/UART_TX/UART_TX_1.0'.
+create_peripheral xilinx.com user UART_STREAM_TX 1.0 -dir D:/study/Grade3/hardware/REAL/IP/ip_repo/UART_STREAM_TX
+add_peripheral_interface uart_tx -interface_mode slave -axi_type stream [ipx::find_open_core xilinx.com:user:UART_STREAM_TX:1.0]
+generate_peripheral [ipx::find_open_core xilinx.com:user:UART_STREAM_TX:1.0]
+write_peripheral [ipx::find_open_core xilinx.com:user:UART_STREAM_TX:1.0]
+set_property  ip_repo_paths  {D:/study/Grade3/hardware/REAL/IP/ip_repo/UART_STREAM_TX/UART_STREAM_TX_1.0 d:/study/Grade3/hardware/REAL/IP/ip_repo/SPI_MOSI/SPI_MOSI_1.0 d:/study/Grade3/hardware/REAL/IP/ip_repo/UART_TX/UART_TX_1.0} [current_project]
+update_ip_catalog -rebuild
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/study/Grade3/hardware/REAL/IP/ip_repo/UART_STREAM_TX/UART_STREAM_TX_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/study/Grade3/hardware/REAL/IP/ip_repo/SPI_MOSI/SPI_MOSI_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/study/Grade3/hardware/REAL/IP/ip_repo/UART_TX/UART_TX_1.0'.
+ipx::edit_ip_in_project -upgrade true -name edit_UART_STREAM_TX_v1_0 -directory D:/study/Grade3/hardware/REAL/IP/ip_repo/UART_STREAM_TX d:/study/Grade3/hardware/REAL/IP/ip_repo/UART_STREAM_TX/UART_STREAM_TX_1.0/component.xml
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/softwares/Vivado/Vivado/2015.2/data/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/study/Grade3/hardware/REAL/IP/ip_repo/UART_STREAM_TX/UART_STREAM_TX_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/study/Grade3/hardware/REAL/IP/ip_repo/SPI_MOSI/SPI_MOSI_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/study/Grade3/hardware/REAL/IP/ip_repo/UART_TX/UART_TX_1.0'.
+update_compile_order -fileset sim_1
+file mkdir D:/study/Grade3/hardware/REAL/IP/ip_repo/UART_STREAM_TX/edit_UART_STREAM_TX_v1_0.srcs/sources_1/new
+close [ open d:/study/grade3/hardware/real/ip/ip_repo/uart_stream_tx/edit_UART_STREAM_TX_v1_0.srcs/sources_1/new/uart_tx.v w ]
+add_files d:/study/grade3/hardware/real/ip/ip_repo/uart_stream_tx/edit_UART_STREAM_TX_v1_0.srcs/sources_1/new/uart_tx.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 4
+INFO: [HDL 9-2216] Analyzing Verilog file "d:/study/grade3/hardware/real/ip/ip_repo/uart_stream_tx/uart_stream_tx_1.0/hdl/UART_STREAM_TX_v1_0.v" into library work [d:/study/grade3/hardware/real/ip/ip_repo/uart_stream_tx/uart_stream_tx_1.0/hdl/UART_STREAM_TX_v1_0.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "d:/study/grade3/hardware/real/ip/ip_repo/uart_stream_tx/uart_stream_tx_1.0/hdl/UART_STREAM_TX_v1_0_uart_tx.v" into library work [d:/study/grade3/hardware/real/ip/ip_repo/uart_stream_tx/uart_stream_tx_1.0/hdl/UART_STREAM_TX_v1_0_uart_tx.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "d:/study/grade3/hardware/real/ip/ip_repo/uart_stream_tx/edit_UART_STREAM_TX_v1_0.srcs/sources_1/new/uart_tx.v" into library work [d:/study/grade3/hardware/real/ip/ip_repo/uart_stream_tx/edit_UART_STREAM_TX_v1_0.srcs/sources_1/new/uart_tx.v:1]
+[Mon May 22 19:21:14 2023] Launched synth_1...
+Run output will be captured here: d:/study/grade3/hardware/real/ip/ip_repo/uart_stream_tx/edit_UART_STREAM_TX_v1_0.runs/synth_1/runme.log
+ipx::merge_project_changes files [ipx::current_core]
+ipx::merge_project_changes hdl_parameters [ipx::current_core]
+INFO: [IP_Flow 19-2418] Expression "((C_uart_tx_TDATA_WIDTH / 8) - 1)": Will not convert operator '/' to XPATH 'div' to allow integer division if applicable.
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+close_project -delete
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source d:/study/grade3/hardware/real/ip/ip_repo/uart_stream_tx/edit_UART_STREAM_TX_v1_0.hw/webtalk/labtool_webtalk.tcl -notrace
+
+    while executing
+"webtalk_transmit -clientid 653052299 -regid "" -xml d:/study/grade3/hardware/real/ip/ip_repo/uart_stream_tx/edit_UART_STREAM_TX_v1_0.hw/webtalk/usage_..."
+    (file "d:/study/grade3/hardware/real/ip/ip_repo/uart_stream_tx/edit_UART_STREAM_TX_v1_0.hw/webtalk/labtool_webtalk.tcl" line 26)
+INFO: [Common 17-206] Exiting Webtalk at Mon May 22 19:22:07 2023...
+update_ip_catalog -rebuild -repo_path d:/study/Grade3/hardware/REAL/IP/ip_repo/UART_STREAM_TX/UART_STREAM_TX_1.0
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'd:/study/Grade3/hardware/REAL/IP/ip_repo/UART_STREAM_TX/UART_STREAM_TX_1.0'
+ipx::edit_ip_in_project -upgrade true -name UART_STREAM_TX_v1_0_v1_0_project -directory D:/study/Grade3/hardware/REAL/IP/managed_ip_project/managed_ip_project.tmp/UART_STREAM_TX_v1_0_v1_0_project d:/study/Grade3/hardware/REAL/IP/ip_repo/UART_STREAM_TX/UART_STREAM_TX_1.0/component.xml
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'd:/study/grade3/hardware/real/ip/managed_ip_project/managed_ip_project.tmp/uart_stream_tx_v1_0_v1_0_project'
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/softwares/Vivado/Vivado/2015.2/data/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/study/Grade3/hardware/REAL/IP/ip_repo/UART_STREAM_TX/UART_STREAM_TX_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/study/Grade3/hardware/REAL/IP/ip_repo/SPI_MOSI/SPI_MOSI_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/study/Grade3/hardware/REAL/IP/ip_repo/UART_TX/UART_TX_1.0'.
+CRITICAL WARNING: [IP_Flow 19-3667] Component file 'd:/study/grade3/hardware/real/ip/ip_repo/uart_stream_tx/edit_UART_STREAM_TX_v1_0.srcs/sources_1/new/uart_tx.v' does not exist. The file is ignored.
+CRITICAL WARNING: [IP_Flow 19-3667] Component file 'd:/study/grade3/hardware/real/ip/ip_repo/uart_stream_tx/edit_UART_STREAM_TX_v1_0.srcs/sources_1/new/uart_tx.v' does not exist. The file is ignored.
+update_compile_order -fileset sim_1
+add_files -norecurse -scan_for_includes -copy_to D:/study/Grade3/hardware/REAL/IP/ip_repo/UART_STREAM_TX/UART_STREAM_TX_1.0/src C:/Users/Chen/Desktop/uart_tx.v
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 4
+INFO: [HDL 9-2216] Analyzing Verilog file "d:/study/grade3/hardware/real/ip/ip_repo/uart_stream_tx/uart_stream_tx_1.0/hdl/UART_STREAM_TX_v1_0.v" into library work [d:/study/grade3/hardware/real/ip/ip_repo/uart_stream_tx/uart_stream_tx_1.0/hdl/UART_STREAM_TX_v1_0.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "d:/study/grade3/hardware/real/ip/ip_repo/uart_stream_tx/uart_stream_tx_1.0/hdl/UART_STREAM_TX_v1_0_uart_tx.v" into library work [d:/study/grade3/hardware/real/ip/ip_repo/uart_stream_tx/uart_stream_tx_1.0/hdl/UART_STREAM_TX_v1_0_uart_tx.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "D:/study/Grade3/hardware/REAL/IP/ip_repo/UART_STREAM_TX/UART_STREAM_TX_1.0/src/uart_tx.v" into library work [D:/study/Grade3/hardware/REAL/IP/ip_repo/UART_STREAM_TX/UART_STREAM_TX_1.0/src/uart_tx.v:1]
+[Mon May 22 19:29:08 2023] Launched synth_1...
+Run output will be captured here: d:/study/grade3/hardware/real/ip/managed_ip_project/managed_ip_project.tmp/uart_stream_tx_v1_0_v1_0_project/UART_STREAM_TX_v1_0_v1_0_project.runs/synth_1/runme.log
+ipx::merge_project_changes files [ipx::current_core]
+ipx::merge_project_changes hdl_parameters [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path d:/study/Grade3/hardware/REAL/IP/ip_repo/UART_STREAM_TX/UART_STREAM_TX_1.0
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'd:/study/Grade3/hardware/REAL/IP/ip_repo/UART_STREAM_TX/UART_STREAM_TX_1.0'

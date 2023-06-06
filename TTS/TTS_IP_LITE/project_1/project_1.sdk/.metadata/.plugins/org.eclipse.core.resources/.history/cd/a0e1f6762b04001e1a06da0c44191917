@@ -1,0 +1,44 @@
+
+#include "THread.h" 
+
+void ShowPM(){
+	OLED_Clear();
+	
+	int jiaquan = Xil_In32(XPAR_JIAQUAN_0_S00_AXI_BASEADDR);
+	int a=jiaquan/1000*1.25;
+	
+	u8 a_shiwei=(u8)(a/10+ 48);
+	u8 a_gewei=(u8)(a%10+ 48);
+	
+	OLED_ShowChinese(5,1,7,16);
+	OLED_ShowChinese(25,1,8,16);
+	OLED_ShowChar(45,1,':',16);
+	OLED_ShowNum(60,1,temperature_int,2,16);
+	OLED_ShowChar(80,1,'.',16);
+	OLED_ShowNum(90,1,temperature_dec,2,16);
+
+	OLED_ShowChinese(5,4,9,16);
+	OLED_ShowChinese(25,4,10,16);
+	OLED_ShowChar(45,4,':',16);
+	OLED_ShowNum(60,4,humidity_int,2,16);
+	OLED_ShowChar(80,4,'.',16);
+	OLED_ShowNum(90,4,humidity_dec,2,16);
+
+	u8 SendBuffer2[] = "十";
+	u8 SendBuffer4[] = "毫克每立方米";
+	
+	u8 SendBuffer[] = "当前的甲醛浓度值为";
+	Send_TTS(SendBuffer,sizeof SendBuffer);
+
+	if(a_shiwei!=0){
+		end_TTS(&a_shiwei,sizeof a_shiwei);
+		
+		Send_TTS(SendBuffer2,sizeof SendBuffer2);  //十 
+
+		Send_TTS(&a_gewei,sizeof a_gewei);
+	}
+	else Send_TTS(&a_gewei,sizeof a_gewei);
+//
+	Send_TTS(SendBuffer4,sizeof SendBuffer4);//单位 
+	
+}

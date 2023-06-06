@@ -1,0 +1,295 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Mon May 29 19:39:27 2023
+# Process ID: 4088
+# Log file: d:/study/Grade3/hardware/REAL/IP/ip_repo/SPI_MOSI/edit_SPI_MOSI_v1_0.runs/synth_1/SPI_MOSI_v1_0.vds
+# Journal file: d:/study/Grade3/hardware/REAL/IP/ip_repo/SPI_MOSI/edit_SPI_MOSI_v1_0.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source SPI_MOSI_v1_0.tcl -notrace
+Command: synth_design -top SPI_MOSI_v1_0 -part xc7z020clg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:01 ; elapsed = 00:00:04 . Memory (MB): peak = 261.211 ; gain = 88.723
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'SPI_MOSI_v1_0' [d:/study/grade3/hardware/real/ip/ip_repo/spi_mosi/spi_mosi_1.0/hdl/SPI_MOSI_v1_0.v:4]
+	Parameter C_SPI_MOSI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_SPI_MOSI_ADDR_WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'SPI_MOSI_v1_0_SPI_MOSI' [d:/study/grade3/hardware/real/ip/ip_repo/spi_mosi/spi_mosi_1.0/hdl/SPI_MOSI_v1_0_SPI_MOSI.v:4]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter ADDR_LSB bound to: 2 - type: integer 
+	Parameter OPT_MEM_ADDR_BITS bound to: 2 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'spi_mosi' [D:/study/Grade3/hardware/REAL/IP/ip_repo/SPI_MOSI/SPI_MOSI_1.0/src/spi_mosi.v:2]
+INFO: [Synth 8-226] default block is never used [D:/study/Grade3/hardware/REAL/IP/ip_repo/SPI_MOSI/SPI_MOSI_1.0/src/spi_mosi.v:39]
+INFO: [Synth 8-256] done synthesizing module 'spi_mosi' (1#1) [D:/study/Grade3/hardware/REAL/IP/ip_repo/SPI_MOSI/SPI_MOSI_1.0/src/spi_mosi.v:2]
+INFO: [Synth 8-256] done synthesizing module 'SPI_MOSI_v1_0_SPI_MOSI' (2#1) [d:/study/grade3/hardware/real/ip/ip_repo/spi_mosi/spi_mosi_1.0/hdl/SPI_MOSI_v1_0_SPI_MOSI.v:4]
+INFO: [Synth 8-256] done synthesizing module 'SPI_MOSI_v1_0' (3#1) [d:/study/grade3/hardware/real/ip/ip_repo/spi_mosi/spi_mosi_1.0/hdl/SPI_MOSI_v1_0.v:4]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 295.527 ; gain = 123.039
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 295.527 ; gain = 123.039
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 295.527 ; gain = 123.039
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Synth 8-4471] merging register 'tx_done_reg' into 's_start_reg' [D:/study/Grade3/hardware/REAL/IP/ip_repo/SPI_MOSI/SPI_MOSI_1.0/src/spi_mosi.v:24]
+INFO: [Synth 8-5544] ROM "sclk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5545] ROM "sclk" won't be mapped to RAM because address size (33) is larger than maximum supported(18)
+INFO: [Synth 8-5544] ROM "tx_done" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "shift_in_reg" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 329.238 ; gain = 156.750
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     33 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               33 Bit    Registers := 1     
+	               32 Bit    Registers := 6     
+	                8 Bit    Registers := 1     
+	                5 Bit    Registers := 2     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 8     
++---Muxes : 
+	   2 Input     33 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 5     
+	   7 Input     32 Bit        Muxes := 5     
+	   2 Input      8 Bit        Muxes := 1     
+	   3 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 9     
+	   3 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module spi_mosi 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     33 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               33 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input     33 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	   3 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+	   3 Input      1 Bit        Muxes := 2     
+Module SPI_MOSI_v1_0_SPI_MOSI 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 6     
+	                5 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 5     
+	   7 Input     32 Bit        Muxes := 5     
+	   2 Input      1 Bit        Muxes := 6     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 453.293 ; gain = 280.805
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5545] ROM "sclk" won't be mapped to RAM because address size (33) is larger than maximum supported(18)
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 454.547 ; gain = 282.059
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 454.547 ; gain = 282.059
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\SPI_MOSI_v1_0_SPI_MOSI_inst/axi_rresp_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\SPI_MOSI_v1_0_SPI_MOSI_inst/axi_bresp_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\SPI_MOSI_v1_0_SPI_MOSI_inst/sm/cs_reg )
+WARNING: [Synth 8-3332] Sequential element (\SPI_MOSI_v1_0_SPI_MOSI_inst/sm/cs_reg ) is unused and will be removed from module SPI_MOSI_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\SPI_MOSI_v1_0_SPI_MOSI_inst/axi_awaddr_reg[1] ) is unused and will be removed from module SPI_MOSI_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\SPI_MOSI_v1_0_SPI_MOSI_inst/axi_awaddr_reg[0] ) is unused and will be removed from module SPI_MOSI_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\SPI_MOSI_v1_0_SPI_MOSI_inst/axi_bresp_reg[1] ) is unused and will be removed from module SPI_MOSI_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\SPI_MOSI_v1_0_SPI_MOSI_inst/axi_bresp_reg[0] ) is unused and will be removed from module SPI_MOSI_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\SPI_MOSI_v1_0_SPI_MOSI_inst/axi_araddr_reg[1] ) is unused and will be removed from module SPI_MOSI_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\SPI_MOSI_v1_0_SPI_MOSI_inst/axi_araddr_reg[0] ) is unused and will be removed from module SPI_MOSI_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\SPI_MOSI_v1_0_SPI_MOSI_inst/axi_rresp_reg[1] ) is unused and will be removed from module SPI_MOSI_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\SPI_MOSI_v1_0_SPI_MOSI_inst/axi_rresp_reg[0] ) is unused and will be removed from module SPI_MOSI_v1_0.
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 475.047 ; gain = 302.559
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 475.047 ; gain = 302.559
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 475.047 ; gain = 302.559
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 475.047 ; gain = 302.559
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 475.047 ; gain = 302.559
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 475.047 ; gain = 302.559
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 475.047 ; gain = 302.559
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 475.047 ; gain = 302.559
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports : Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 475.047 ; gain = 302.559
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 475.047 ; gain = 302.559
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     8|
+|3     |LUT1   |    35|
+|4     |LUT2   |     3|
+|5     |LUT3   |     7|
+|6     |LUT4   |    25|
+|7     |LUT5   |    29|
+|8     |LUT6   |    69|
+|9     |FDCE   |     5|
+|10    |FDPE   |     1|
+|11    |FDRE   |   245|
+|12    |IBUF   |    49|
+|13    |OBUF   |    47|
++------+-------+------+
+
+Report Instance Areas: 
++------+------------------------------+-----------------------+------+
+|      |Instance                      |Module                 |Cells |
++------+------------------------------+-----------------------+------+
+|1     |top                           |                       |   524|
+|2     |  SPI_MOSI_v1_0_SPI_MOSI_inst |SPI_MOSI_v1_0_SPI_MOSI |   427|
+|3     |    sm                        |spi_mosi               |   124|
++------+------------------------------+-----------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 475.047 ; gain = 302.559
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 9 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 475.047 ; gain = 266.859
+Synthesis Optimization Complete : Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 475.047 ; gain = 302.559
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 57 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+25 Infos, 9 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 534.313 ; gain = 327.473
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.034 . Memory (MB): peak = 534.313 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Mon May 29 19:39:37 2023...

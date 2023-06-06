@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Webtalk v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Tue May 23 21:47:31 2023
+# Process ID: 28980
+# Log file: d:/study/Grade3/hardware/REAL/IP/managed_ip_project/managed_ip_project.tmp/uart_lite_tx_v1_0_v1_0_project/UART_LITE_TX_v1_0_v1_0_project.sim/sim_1/behav/webtalk.log
+# Journal file: d:/study/Grade3/hardware/REAL/IP/managed_ip_project/managed_ip_project.tmp/uart_lite_tx_v1_0_v1_0_project/UART_LITE_TX_v1_0_v1_0_project.sim/sim_1/behav\webtalk.jou
+#-----------------------------------------------------------
+source d:/study/grade3/hardware/real/ip/managed_ip_project/managed_ip_project.tmp/uart_lite_tx_v1_0_v1_0_project/UART_LITE_TX_v1_0_v1_0_project.sim/sim_1/behav/xsim.dir/tb_behav/webtalk/xsim_webtalk.tcl -notrace

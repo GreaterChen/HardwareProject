@@ -1,0 +1,58 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Mon May 22 19:13:05 2023
+# Process ID: 26232
+# Log file: D:/study/Grade3/hardware/REAL/IP/managed_ip_project/vivado.log
+# Journal file: D:/study/Grade3/hardware/REAL/IP/managed_ip_project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/study/Grade3/hardware/REAL/IP/managed_ip_project/managed_ip_project.xpr
+set_property  ip_repo_paths  {d:/study/Grade3/hardware/REAL/IP/ip_repo/SPI_TX_STREAM_1.0 d:/study/Grade3/hardware/REAL/IP/ip_repo/UART_STREAM_1.0 d:/study/Grade3/hardware/REAL/IP/ip_repo/SPI_MOSI/SPI_MOSI_1.0 d:/study/Grade3/hardware/REAL/IP/ip_repo/UART_TX/UART_TX_1.0} [current_project]
+update_ip_catalog
+set_property  ip_repo_paths  {d:/study/Grade3/hardware/REAL/IP/ip_repo/UART_STREAM_1.0 d:/study/Grade3/hardware/REAL/IP/ip_repo/SPI_MOSI/SPI_MOSI_1.0 d:/study/Grade3/hardware/REAL/IP/ip_repo/UART_TX/UART_TX_1.0} [current_project]
+update_ip_catalog
+set_property  ip_repo_paths  {d:/study/Grade3/hardware/REAL/IP/ip_repo/SPI_MOSI/SPI_MOSI_1.0 d:/study/Grade3/hardware/REAL/IP/ip_repo/UART_TX/UART_TX_1.0} [current_project]
+update_ip_catalog
+set_property  ip_repo_paths  {d:/study/Grade3/hardware/REAL/IP/ip_repo/SPI_MOSI/SPI_MOSI_1.0 D:/study/Grade3/hardware/REAL/IP/ip_repo/UART_TX_STREAM d:/study/Grade3/hardware/REAL/IP/ip_repo/UART_TX/UART_TX_1.0} [current_project]
+update_ip_catalog
+set_property  ip_repo_paths  {d:/study/Grade3/hardware/REAL/IP/ip_repo/SPI_MOSI/SPI_MOSI_1.0 d:/study/Grade3/hardware/REAL/IP/ip_repo/UART_TX/UART_TX_1.0} [current_project]
+update_ip_catalog
+create_peripheral xilinx.com user UART_STREAM_TX 1.0 -dir D:/study/Grade3/hardware/REAL/IP/ip_repo/UART_STREAM_TX
+add_peripheral_interface uart_tx -interface_mode slave -axi_type stream [ipx::find_open_core xilinx.com:user:UART_STREAM_TX:1.0]
+generate_peripheral [ipx::find_open_core xilinx.com:user:UART_STREAM_TX:1.0]
+write_peripheral [ipx::find_open_core xilinx.com:user:UART_STREAM_TX:1.0]
+set_property  ip_repo_paths  {D:/study/Grade3/hardware/REAL/IP/ip_repo/UART_STREAM_TX/UART_STREAM_TX_1.0 d:/study/Grade3/hardware/REAL/IP/ip_repo/SPI_MOSI/SPI_MOSI_1.0 d:/study/Grade3/hardware/REAL/IP/ip_repo/UART_TX/UART_TX_1.0} [current_project]
+update_ip_catalog -rebuild
+ipx::edit_ip_in_project -upgrade true -name edit_UART_STREAM_TX_v1_0 -directory D:/study/Grade3/hardware/REAL/IP/ip_repo/UART_STREAM_TX d:/study/Grade3/hardware/REAL/IP/ip_repo/UART_STREAM_TX/UART_STREAM_TX_1.0/component.xml
+update_compile_order -fileset sim_1
+file mkdir D:/study/Grade3/hardware/REAL/IP/ip_repo/UART_STREAM_TX/edit_UART_STREAM_TX_v1_0.srcs/sources_1/new
+close [ open d:/study/grade3/hardware/real/ip/ip_repo/uart_stream_tx/edit_UART_STREAM_TX_v1_0.srcs/sources_1/new/uart_tx.v w ]
+add_files d:/study/grade3/hardware/real/ip/ip_repo/uart_stream_tx/edit_UART_STREAM_TX_v1_0.srcs/sources_1/new/uart_tx.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+ipx::merge_project_changes files [ipx::current_core]
+ipx::merge_project_changes hdl_parameters [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path d:/study/Grade3/hardware/REAL/IP/ip_repo/UART_STREAM_TX/UART_STREAM_TX_1.0
+ipx::edit_ip_in_project -upgrade true -name UART_STREAM_TX_v1_0_v1_0_project -directory D:/study/Grade3/hardware/REAL/IP/managed_ip_project/managed_ip_project.tmp/UART_STREAM_TX_v1_0_v1_0_project d:/study/Grade3/hardware/REAL/IP/ip_repo/UART_STREAM_TX/UART_STREAM_TX_1.0/component.xml
+update_compile_order -fileset sim_1
+add_files -norecurse -scan_for_includes -copy_to D:/study/Grade3/hardware/REAL/IP/ip_repo/UART_STREAM_TX/UART_STREAM_TX_1.0/src C:/Users/Chen/Desktop/uart_tx.v
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+ipx::merge_project_changes files [ipx::current_core]
+ipx::merge_project_changes hdl_parameters [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path d:/study/Grade3/hardware/REAL/IP/ip_repo/UART_STREAM_TX/UART_STREAM_TX_1.0

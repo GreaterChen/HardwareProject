@@ -1,0 +1,66 @@
+{
+   guistr: "# # String gsaved with Nlview 6.4.12  2014-12-16 bk=1.3272 VDI=35 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port dht11_data -pg 1 -y 800 -defaultsOSRD
+preplace port res -pg 1 -y 1390 -defaultsOSRD
+preplace port DDR -pg 1 -y 700 -defaultsOSRD
+preplace port rx_pm -pg 1 -y 1150 -defaultsOSRD
+preplace port rx_asr -pg 1 -y 280 -defaultsOSRD
+preplace port rx_jq -pg 1 -y 420 -defaultsOSRD
+preplace port cs -pg 1 -y 1410 -defaultsOSRD
+preplace port sda -pg 1 -y 1450 -defaultsOSRD
+preplace port dc -pg 1 -y 1370 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -y 1160 -defaultsOSRD
+preplace port tx_tts -pg 1 -y 1270 -defaultsOSRD
+preplace port sclk -pg 1 -y 1430 -defaultsOSRD
+preplace inst JQ -pg 1 -lvl 3 -y 610 -defaultsOSRD
+preplace inst PM_UART_RX -pg 1 -lvl 3 -y 1140 -defaultsOSRD
+preplace inst DHT11 -pg 1 -lvl 3 -y 810 -defaultsOSRD
+preplace inst rst_processing_system7_0_100M -pg 1 -lvl 1 -y 880 -defaultsOSRD
+preplace inst ASR_UART_RX -pg 1 -lvl 3 -y 290 -defaultsOSRD
+preplace inst JQ_UART_RX -pg 1 -lvl 3 -y 430 -defaultsOSRD
+preplace inst PM -pg 1 -lvl 3 -y 960 -defaultsOSRD
+preplace inst TTS -pg 1 -lvl 3 -y 1270 -defaultsOSRD
+preplace inst OLED -pg 1 -lvl 3 -y 1410 -defaultsOSRD
+preplace inst ASR -pg 1 -lvl 3 -y 110 -defaultsOSRD
+preplace inst processing_system7_0_axi_periph -pg 1 -lvl 2 -y 850 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 1 -y 640 -defaultsOSRD
+preplace netloc processing_system7_0_DDR 1 1 3 470 550 NJ 700 NJ
+preplace netloc UART_xfh_0_over1 1 2 2 910 520 1170
+preplace netloc rx_1 1 0 3 NJ 280 NJ 280 N
+preplace netloc rx_2 1 0 3 NJ 420 NJ 420 N
+preplace netloc UART_xfh_0_message1 1 2 2 900 510 1190
+preplace netloc processing_system7_0_axi_periph_M08_AXI 1 2 1 790
+preplace netloc processing_system7_0_axi_periph_M03_AXI 1 2 1 790
+preplace netloc processing_system7_0_axi_periph_M00_AXI 1 2 1 830
+preplace netloc rx_3 1 0 3 NJ 1150 NJ 1150 820
+preplace netloc SPI_MOSI_0_cs 1 3 1 N
+preplace netloc processing_system7_0_axi_periph_M07_AXI 1 2 1 820
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 1 N
+preplace netloc UART_xfh_0_over 1 2 2 850 10 1190
+preplace netloc processing_system7_0_axi_periph_M05_AXI 1 2 1 870
+preplace netloc UART_xfh_0_message 1 2 2 910 210 1170
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 2 110 790 470
+preplace netloc processing_system7_0_axi_periph_M02_AXI 1 2 1 840
+preplace netloc UART_xfh_1_message 1 2 2 910 1050 1180
+preplace netloc SPI_MOSI_0_sclk 1 3 1 N
+preplace netloc rst_processing_system7_0_100M_peripheral_aresetn 1 1 2 500 1130 800
+preplace netloc processing_system7_0_axi_periph_M06_AXI 1 2 1 860
+preplace netloc SPI_MOSI_0_sda 1 3 1 N
+preplace netloc processing_system7_0_FIXED_IO 1 1 3 480 560 NJ 740 NJ
+preplace netloc UART_xfh_1_over 1 2 2 900 1060 1170
+preplace netloc Net 1 3 1 N
+preplace netloc SPI_MOSI_0_dc 1 3 1 N
+preplace netloc rst_processing_system7_0_100M_interconnect_aresetn 1 1 1 480
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 3 100 780 490 570 850
+preplace netloc UART_LITE_TX_0_tx 1 3 1 N
+preplace netloc processing_system7_0_axi_periph_M04_AXI 1 2 1 820
+preplace netloc processing_system7_0_axi_periph_M01_AXI 1 2 1 810
+preplace netloc SPI_MOSI_0_res 1 3 1 N
+levelinfo -pg 1 80 290 650 1040 1210
+",
+}
+{
+   da_axi4_cnt: "11",
+   da_ps7_cnt: "1",
+}

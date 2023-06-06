@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Webtalk v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Mon May 22 19:22:06 2023
+# Process ID: 15988
+# Log file: D:/study/Grade3/hardware/REAL/IP/managed_ip_project/webtalk.log
+# Journal file: D:/study/Grade3/hardware/REAL/IP/managed_ip_project\webtalk.jou
+#-----------------------------------------------------------
+source d:/study/grade3/hardware/real/ip/ip_repo/uart_stream_tx/edit_UART_STREAM_TX_v1_0.hw/webtalk/labtool_webtalk.tcl -notrace
+
+    while executing
+"webtalk_transmit -clientid 653052299 -regid "" -xml d:/study/grade3/hardware/real/ip/ip_repo/uart_stream_tx/edit_UART_STREAM_TX_v1_0.hw/webtalk/usage_..."
+    (file "d:/study/grade3/hardware/real/ip/ip_repo/uart_stream_tx/edit_UART_STREAM_TX_v1_0.hw/webtalk/labtool_webtalk.tcl" line 26)
+INFO: [Common 17-206] Exiting Webtalk at Mon May 22 19:22:07 2023...

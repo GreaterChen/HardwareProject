@@ -1,0 +1,59 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Mon May 22 20:22:12 2023
+# Process ID: 14008
+# Log file: D:/study/Grade3/hardware/REAL/IP/ip_repo/UART_LITE_TX/vivado.log
+# Journal file: D:/study/Grade3/hardware/REAL/IP/ip_repo/UART_LITE_TX\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/study/Grade3/hardware/REAL/IP/ip_repo/UART_LITE_TX/edit_UART_LITE_TX_v1_0.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/study/Grade3/hardware/REAL/IP/ip_repo/UART_LITE_TX/UART_LITE_TX_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/study/Grade3/hardware/REAL/IP/ip_repo/UART_STREAM_TX/UART_STREAM_TX_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/study/Grade3/hardware/REAL/IP/ip_repo/SPI_MOSI/SPI_MOSI_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/softwares/Vivado/Vivado/2015.2/data/ip'.
+open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:07 . Memory (MB): peak = 740.496 ; gain = 161.211
+ipx::open_ipxact_file D:/study/Grade3/hardware/REAL/IP/ip_repo/UART_LITE_TX/uart_lite_tx_1.0/component.xml
+add_files -norecurse -scan_for_includes D:/study/Grade3/hardware/REAL/IP/ip_repo/UART_STREAM_TX/UART_STREAM_TX_1.0/src/uart_tx.v
+import_files -norecurse D:/study/Grade3/hardware/REAL/IP/ip_repo/UART_STREAM_TX/UART_STREAM_TX_1.0/src/uart_tx.v
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 4
+INFO: [HDL 9-2216] Analyzing Verilog file "D:/study/Grade3/hardware/REAL/IP/ip_repo/UART_LITE_TX/uart_lite_tx_1.0/hdl/UART_LITE_TX_v1_0.v" into library work [D:/study/Grade3/hardware/REAL/IP/ip_repo/UART_LITE_TX/uart_lite_tx_1.0/hdl/UART_LITE_TX_v1_0.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "D:/study/Grade3/hardware/REAL/IP/ip_repo/UART_LITE_TX/uart_lite_tx_1.0/hdl/UART_LITE_TX_v1_0_uart_tx.v" into library work [D:/study/Grade3/hardware/REAL/IP/ip_repo/UART_LITE_TX/uart_lite_tx_1.0/hdl/UART_LITE_TX_v1_0_uart_tx.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "D:/study/Grade3/hardware/REAL/IP/ip_repo/UART_LITE_TX/edit_UART_LITE_TX_v1_0.srcs/sources_1/imports/src/uart_tx.v" into library work [D:/study/Grade3/hardware/REAL/IP/ip_repo/UART_LITE_TX/edit_UART_LITE_TX_v1_0.srcs/sources_1/imports/src/uart_tx.v:1]
+[Mon May 22 20:23:25 2023] Launched synth_1...
+Run output will be captured here: D:/study/Grade3/hardware/REAL/IP/ip_repo/UART_LITE_TX/edit_UART_LITE_TX_v1_0.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Mon May 22 20:23:53 2023] Launched impl_1...
+Run output will be captured here: D:/study/Grade3/hardware/REAL/IP/ip_repo/UART_LITE_TX/edit_UART_LITE_TX_v1_0.runs/impl_1/runme.log
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+INFO: [HDL 9-2216] Analyzing Verilog file "D:/study/Grade3/hardware/REAL/IP/ip_repo/UART_LITE_TX/uart_lite_tx_1.0/hdl/UART_LITE_TX_v1_0.v" into library work [D:/study/Grade3/hardware/REAL/IP/ip_repo/UART_LITE_TX/uart_lite_tx_1.0/hdl/UART_LITE_TX_v1_0.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "D:/study/Grade3/hardware/REAL/IP/ip_repo/UART_LITE_TX/uart_lite_tx_1.0/hdl/UART_LITE_TX_v1_0_uart_tx.v" into library work [D:/study/Grade3/hardware/REAL/IP/ip_repo/UART_LITE_TX/uart_lite_tx_1.0/hdl/UART_LITE_TX_v1_0_uart_tx.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "D:/study/Grade3/hardware/REAL/IP/ip_repo/UART_LITE_TX/edit_UART_LITE_TX_v1_0.srcs/sources_1/imports/src/uart_tx.v" into library work [D:/study/Grade3/hardware/REAL/IP/ip_repo/UART_LITE_TX/edit_UART_LITE_TX_v1_0.srcs/sources_1/imports/src/uart_tx.v:1]
+[Mon May 22 20:25:39 2023] Launched synth_1...
+Run output will be captured here: D:/study/Grade3/hardware/REAL/IP/ip_repo/UART_LITE_TX/edit_UART_LITE_TX_v1_0.runs/synth_1/runme.log
+ipx::add_file ../../UART_STREAM_TX/UART_STREAM_TX_1.0/src/uart_tx.v [ipx::get_file_groups xilinx_verilogsynthesis -of_objects [ipx::current_core]]
+set_property type verilogSource [ipx::get_files ../../UART_STREAM_TX/UART_STREAM_TX_1.0/src/uart_tx.v -of_objects [ipx::get_file_groups xilinx_verilogsynthesis -of_objects [ipx::current_core]]]
+set_property library_name xil_defaultlib [ipx::get_files ../../UART_STREAM_TX/UART_STREAM_TX_1.0/src/uart_tx.v -of_objects [ipx::get_file_groups xilinx_verilogsynthesis -of_objects [ipx::current_core]]]
+ipx::remove_file ../../UART_STREAM_TX/UART_STREAM_TX_1.0/src/uart_tx.v [ipx::get_file_groups xilinx_verilogsynthesis -of_objects [ipx::current_core]]
+remove_files D:/study/Grade3/hardware/REAL/IP/ip_repo/UART_LITE_TX/edit_UART_LITE_TX_v1_0.srcs/sources_1/imports/src/uart_tx.v
+file delete -force D:/study/Grade3/hardware/REAL/IP/ip_repo/UART_LITE_TX/edit_UART_LITE_TX_v1_0.srcs/sources_1/imports/src/uart_tx.v
+file mkdir D:/study/Grade3/hardware/REAL/IP/ip_repo/UART_LITE_TX/edit_UART_LITE_TX_v1_0.srcs/sources_1/new
+close [ open D:/study/Grade3/hardware/REAL/IP/ip_repo/UART_LITE_TX/edit_UART_LITE_TX_v1_0.srcs/sources_1/new/uart_tx.v w ]
+add_files D:/study/Grade3/hardware/REAL/IP/ip_repo/UART_LITE_TX/edit_UART_LITE_TX_v1_0.srcs/sources_1/new/uart_tx.v
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+INFO: [HDL 9-2216] Analyzing Verilog file "D:/study/Grade3/hardware/REAL/IP/ip_repo/UART_LITE_TX/uart_lite_tx_1.0/hdl/UART_LITE_TX_v1_0.v" into library work [D:/study/Grade3/hardware/REAL/IP/ip_repo/UART_LITE_TX/uart_lite_tx_1.0/hdl/UART_LITE_TX_v1_0.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "D:/study/Grade3/hardware/REAL/IP/ip_repo/UART_LITE_TX/uart_lite_tx_1.0/hdl/UART_LITE_TX_v1_0_uart_tx.v" into library work [D:/study/Grade3/hardware/REAL/IP/ip_repo/UART_LITE_TX/uart_lite_tx_1.0/hdl/UART_LITE_TX_v1_0_uart_tx.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "D:/study/Grade3/hardware/REAL/IP/ip_repo/UART_LITE_TX/edit_UART_LITE_TX_v1_0.srcs/sources_1/new/uart_tx.v" into library work [D:/study/Grade3/hardware/REAL/IP/ip_repo/UART_LITE_TX/edit_UART_LITE_TX_v1_0.srcs/sources_1/new/uart_tx.v:1]
+[Mon May 22 20:28:00 2023] Launched synth_1...
+Run output will be captured here: D:/study/Grade3/hardware/REAL/IP/ip_repo/UART_LITE_TX/edit_UART_LITE_TX_v1_0.runs/synth_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon May 22 20:28:30 2023...
