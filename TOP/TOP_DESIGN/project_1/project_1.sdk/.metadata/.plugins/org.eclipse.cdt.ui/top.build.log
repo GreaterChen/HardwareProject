@@ -1,0 +1,25 @@
+15:20:39 **** Auto Build of configuration Debug for project top ****
+make all 
+'Building file: ../src/tts.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/tts.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/tts.d" -MT"src/tts.d" -o "src/tts.o" "../src/tts.c"
+../src/tts.c: In function 'Send_TTS':
+../src/tts.c:24:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+'Finished building: ../src/tts.c'
+' '
+'Building target: top.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../top_bsp/ps7_cortexa9_0/lib -o "top.elf"  ./src/asr.o ./src/dht.o ./src/jq.o ./src/main.o ./src/oled.o ./src/pm.o ./src/tts.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: top.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size top.elf  |tee "top.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30184	   3648	  22564	  56396	   dc4c	top.elf
+'Finished building: top.elf.size'
+' '
+
+15:20:40 Build Finished (took 1s.219ms)
+

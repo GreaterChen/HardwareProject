@@ -1,0 +1,239 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Tue Jun 06 13:22:36 2023
+# Process ID: 26844
+# Log file: D:/study/Grade3/hardware/REAL/TTS/TTS_IP_LITE/project_1/vivado.log
+# Journal file: D:/study/Grade3/hardware/REAL/TTS/TTS_IP_LITE/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/study/Grade3/hardware/REAL/TTS/TTS_IP_LITE/project_1/project_1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/study/Grade3/hardware/REAL/IP/ip_repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/study/Grade3/hardware/REAL/IP_XFH'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/study/Grade3/hardware/REAL/IP_LZK'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/softwares/Vivado/Vivado/2015.2/data/ip'.
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:10 . Memory (MB): peak = 842.730 ; gain = 262.281
+open_bd_design {D:/study/Grade3/hardware/REAL/TTS/TTS_IP_LITE/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd}
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_processing_system7_0_100M
+Adding component instance block -- xilinx.com:user:UART_LITE_TX:1.0 - TTS
+Adding component instance block -- xilinx.com:user:SPI_MOSI:1.0 - OLED
+Adding component instance block -- xilinx.com:user:DHT11_IP:1.0 - DHT11
+Adding component instance block -- xilinx.com:user:jiaquan:1.0 - JQ
+Adding component instance block -- xilinx.com:user:PM:1.0 - PM
+Adding component instance block -- xilinx.com:user:UART_xfh:1.0 - ASR_UART_RX
+Adding component instance block -- xilinx.com:user:UART_xfh:1.0 - JQ_UART_RX
+Adding component instance block -- xilinx.com:user:UART_xfh:1.0 - PM_UART_RX
+Adding component instance block -- xilinx.com:user:ASR_rcv:1.0 - ASR
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Successfully read diagram <design_1> from BD file <D:/study/Grade3/hardware/REAL/TTS/TTS_IP_LITE/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd>
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Jun 06 13:23:10 2023] Launched synth_1...
+Run output will be captured here: D:/study/Grade3/hardware/REAL/TTS/TTS_IP_LITE/project_1/project_1.runs/synth_1/runme.log
+[Tue Jun 06 13:23:10 2023] Launched impl_1...
+Run output will be captured here: D:/study/Grade3/hardware/REAL/TTS/TTS_IP_LITE/project_1/project_1.runs/impl_1/runme.log
+reset_run synth_1 -noclean_dir 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Jun 06 13:23:51 2023] Launched synth_1...
+Run output will be captured here: D:/study/Grade3/hardware/REAL/TTS/TTS_IP_LITE/project_1/project_1.runs/synth_1/runme.log
+[Tue Jun 06 13:23:51 2023] Launched impl_1...
+Run output will be captured here: D:/study/Grade3/hardware/REAL/TTS/TTS_IP_LITE/project_1/project_1.runs/impl_1/runme.log
+INFO: [Vivado 12-4159] Implementation run is out of date. Exported hardware information may be inconsistent with respect to the current state of the design. It is recommended that you re-run implementation and re-generate bitstream before doing hardware export.
+file copy -force D:/study/Grade3/hardware/REAL/TTS/TTS_IP_LITE/project_1/project_1.runs/impl_1/design_1_wrapper.sysdef D:/study/Grade3/hardware/REAL/TTS/TTS_IP_LITE/project_1/project_1.sdk/design_1_wrapper.hdf
+
+INFO: [Vivado 12-4158] Exported Hardware file is out of date. Exported hardware information may be inconsistent with respect to the current state of the design. It is recommended that you re-export the design and launch SDK otherwise SDK is launched with out of date hardware system file.
+launch_sdk -workspace D:/study/Grade3/hardware/REAL/TTS/TTS_IP_LITE/project_1/project_1.sdk -hwspec D:/study/Grade3/hardware/REAL/TTS/TTS_IP_LITE/project_1/project_1.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace D:/study/Grade3/hardware/REAL/TTS/TTS_IP_LITE/project_1/project_1.sdk -hwspec D:/study/Grade3/hardware/REAL/TTS/TTS_IP_LITE/project_1/project_1.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+INFO: [Vivado 12-4158] Exported Hardware file is out of date. Exported hardware information may be inconsistent with respect to the current state of the design. It is recommended that you re-export the design and launch SDK otherwise SDK is launched with out of date hardware system file.
+launch_sdk -workspace D:/study/Grade3/hardware/REAL/TTS/TTS_IP_LITE/project_1/project_1.sdk -hwspec D:/study/Grade3/hardware/REAL/TTS/TTS_IP_LITE/project_1/project_1.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace D:/study/Grade3/hardware/REAL/TTS/TTS_IP_LITE/project_1/project_1.sdk -hwspec D:/study/Grade3/hardware/REAL/TTS/TTS_IP_LITE/project_1/project_1.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+INFO: [Vivado 12-4158] Exported Hardware file is out of date. Exported hardware information may be inconsistent with respect to the current state of the design. It is recommended that you re-export the design and launch SDK otherwise SDK is launched with out of date hardware system file.
+launch_sdk -workspace D:/study/Grade3/hardware/REAL/TTS/TTS_IP_LITE/project_1/project_1.sdk -hwspec D:/study/Grade3/hardware/REAL/TTS/TTS_IP_LITE/project_1/project_1.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace D:/study/Grade3/hardware/REAL/TTS/TTS_IP_LITE/project_1/project_1.sdk -hwspec D:/study/Grade3/hardware/REAL/TTS/TTS_IP_LITE/project_1/project_1.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+open_hw
+connect_hw_server -url localhost:3121
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2015.2
+  **** Build date : Jun 26 2015-16:56:39
+    ** Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+
+
+current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210512180215]
+set_property PARAM.FREQUENCY 10000000 [get_hw_targets */xilinx_tcf/Digilent/210512180215]
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180215
+set_property PROGRAM.FILE {D:/study/Grade3/hardware/REAL/TTS/TTS_IP_LITE/project_1/project_1.runs/impl_1/design_1_wrapper.bit} [lindex [get_hw_devices] 1]
+current_hw_device [lindex [get_hw_devices] 1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {D:/study/Grade3/hardware/REAL/TTS/TTS_IP_LITE/project_1/project_1.runs/impl_1/design_1_wrapper.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtools 27-3175] Target jsn-JTAG-HS1-210512180215 is no longer available.
+Please use disconnect_hw_server to close the current server connection. Check cable connectivity and that the target board is powered up.
+Restart the hw_server application running on host localhost, port 3121 and then use connect_hw_server to re-establish connection to target.
+close_hw_target
+INFO: [Labtoolstcl 44-464] Closing hw_target localhost:3121/xilinx_tcf/Digilent/210512180215
+disconnect_hw_server localhost:3121
+connect_hw_server -url localhost:3121
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210512180215]
+set_property PARAM.FREQUENCY 10000000 [get_hw_targets */xilinx_tcf/Digilent/210512180215]
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180215
+set_property PROGRAM.FILE {D:/study/Grade3/hardware/REAL/TTS/TTS_IP_LITE/project_1/project_1.runs/impl_1/design_1_wrapper.bit} [lindex [get_hw_devices] 1]
+current_hw_device [lindex [get_hw_devices] 1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {D:/study/Grade3/hardware/REAL/TTS/TTS_IP_LITE/project_1/project_1.runs/impl_1/design_1_wrapper.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtools 27-3175] Target jsn-JTAG-HS1-210512180215 is no longer available.
+Please use disconnect_hw_server to close the current server connection. Check cable connectivity and that the target board is powered up.
+Restart the hw_server application running on host localhost, port 3121 and then use connect_hw_server to re-establish connection to target.
+close_hw_target
+INFO: [Labtoolstcl 44-464] Closing hw_target localhost:3121/xilinx_tcf/Digilent/210512180215
+disconnect_hw_server localhost:3121
+connect_hw_server -url localhost:3121
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210512180215]
+set_property PARAM.FREQUENCY 10000000 [get_hw_targets */xilinx_tcf/Digilent/210512180215]
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180215
+set_property PROGRAM.FILE {D:/study/Grade3/hardware/REAL/TTS/TTS_IP_LITE/project_1/project_1.runs/impl_1/design_1_wrapper.bit} [lindex [get_hw_devices] 1]
+current_hw_device [lindex [get_hw_devices] 1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {D:/study/Grade3/hardware/REAL/TTS/TTS_IP_LITE/project_1/project_1.runs/impl_1/design_1_wrapper.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtools 27-3175] Target jsn-JTAG-HS1-210512180215 is no longer available.
+Please use disconnect_hw_server to close the current server connection. Check cable connectivity and that the target board is powered up.
+Restart the hw_server application running on host localhost, port 3121 and then use connect_hw_server to re-establish connection to target.
+close_hw_target
+INFO: [Labtoolstcl 44-464] Closing hw_target localhost:3121/xilinx_tcf/Digilent/210512180215
+disconnect_hw_server localhost:3121
+connect_hw_server -url localhost:3121
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210512180215]
+set_property PARAM.FREQUENCY 10000000 [get_hw_targets */xilinx_tcf/Digilent/210512180215]
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180215
+set_property PROGRAM.FILE {D:/study/Grade3/hardware/REAL/TTS/TTS_IP_LITE/project_1/project_1.runs/impl_1/design_1_wrapper.bit} [lindex [get_hw_devices] 1]
+current_hw_device [lindex [get_hw_devices] 1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {D:/study/Grade3/hardware/REAL/TTS/TTS_IP_LITE/project_1/project_1.runs/impl_1/design_1_wrapper.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtools 27-3175] Target jsn-JTAG-HS1-210512180215 is no longer available.
+Please use disconnect_hw_server to close the current server connection. Check cable connectivity and that the target board is powered up.
+Restart the hw_server application running on host localhost, port 3121 and then use connect_hw_server to re-establish connection to target.
+close_hw_target
+INFO: [Labtoolstcl 44-464] Closing hw_target localhost:3121/xilinx_tcf/Digilent/210512180215
+ERROR: [Labtools 27-3175] Target jsn-JTAG-HS1-210512180215 is no longer available.
+Please use disconnect_hw_server to close the current server connection. Check cable connectivity and that the target board is powered up.
+Restart the hw_server application running on host localhost, port 3121 and then use connect_hw_server to re-establish connection to target.
+close_hw_target
+INFO: [Labtoolstcl 44-464] Closing hw_target localhost:3121/xilinx_tcf/Digilent/210512180215
+INFO: [Labtoolstcl 44-468] Target hw_target localhost:3121/xilinx_tcf/Digilent/210512180215 is already closed
+disconnect_hw_server localhost:3121
+connect_hw_server -url localhost:3121
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210512180215]
+set_property PARAM.FREQUENCY 10000000 [get_hw_targets */xilinx_tcf/Digilent/210512180215]
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180215
+set_property PROGRAM.FILE {D:/study/Grade3/hardware/REAL/TTS/TTS_IP_LITE/project_1/project_1.runs/impl_1/design_1_wrapper.bit} [lindex [get_hw_devices] 1]
+current_hw_device [lindex [get_hw_devices] 1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {D:/study/Grade3/hardware/REAL/TTS/TTS_IP_LITE/project_1/project_1.runs/impl_1/design_1_wrapper.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtools 27-3175] Target jsn-JTAG-HS1-210512180215 is no longer available.
+Please use disconnect_hw_server to close the current server connection. Check cable connectivity and that the target board is powered up.
+Restart the hw_server application running on host localhost, port 3121 and then use connect_hw_server to re-establish connection to target.
+close_hw_target
+INFO: [Labtoolstcl 44-464] Closing hw_target localhost:3121/xilinx_tcf/Digilent/210512180215
+disconnect_hw_server localhost:3121
+connect_hw_server -url localhost:3121
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210512180215]
+set_property PARAM.FREQUENCY 10000000 [get_hw_targets */xilinx_tcf/Digilent/210512180215]
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180215
+set_property PROGRAM.FILE {D:/study/Grade3/hardware/REAL/TTS/TTS_IP_LITE/project_1/project_1.runs/impl_1/design_1_wrapper.bit} [lindex [get_hw_devices] 1]
+current_hw_device [lindex [get_hw_devices] 1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {D:/study/Grade3/hardware/REAL/TTS/TTS_IP_LITE/project_1/project_1.runs/impl_1/design_1_wrapper.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtools 27-3175] Target jsn-JTAG-HS1-210512180215 is no longer available.
+Please use disconnect_hw_server to close the current server connection. Check cable connectivity and that the target board is powered up.
+Restart the hw_server application running on host localhost, port 3121 and then use connect_hw_server to re-establish connection to target.
+close_hw_target
+INFO: [Labtoolstcl 44-464] Closing hw_target localhost:3121/xilinx_tcf/Digilent/210512180215
+WARNING: [IP_Flow 19-4318] IP-XACT file does not exist: d:/study/Grade3/hardware/REAL/IP/ip_repo/UART_LITE_TX/UART_LITE_TX_1.0/component.xml. It will be created.
+WARNING: [IP_Flow 19-4318] IP-XACT file does not exist: d:/study/Grade3/hardware/REAL/IP/ip_repo/ASR_RCV/ASR_rcv_1.0/component.xml. It will be created.
+WARNING: [IP_Flow 19-4318] IP-XACT file does not exist: d:/study/Grade3/hardware/REAL/IP/ip_repo/SPI_MOSI/SPI_MOSI_1.0/component.xml. It will be created.
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Jun 06 15:23:08 2023...

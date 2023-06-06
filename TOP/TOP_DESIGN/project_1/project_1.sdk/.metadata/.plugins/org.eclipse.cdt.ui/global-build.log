@@ -1,0 +1,2349 @@
+16:40:12 **** Build of project top_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/ASR_rcv_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ASR_rcv_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/DHT11_IP_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/DHT11_IP_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/jiaquan_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/jiaquan_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/PM_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/PM_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/SPI_MOSI_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/SPI_MOSI_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/UART_LITE_TX_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/UART_LITE_TX_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/UART_xfh_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/UART_xfh_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/ASR_rcv_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ASR_rcv_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ASR_rcv..."
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/DHT11_IP_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/DHT11_IP_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling DHT11_IP..."
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/jiaquan_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/jiaquan_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling jiaquan..."
+"Running Make libs in ps7_cortexa9_0/libsrc/PM_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/PM_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling PM..."
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/SPI_MOSI_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/SPI_MOSI_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling SPI_MOSI..."
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ttcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/UART_LITE_TX_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/UART_LITE_TX_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling UART_LITE_TX..."
+"Running Make libs in ps7_cortexa9_0/libsrc/UART_xfh_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/UART_xfh_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling UART_xfh..."
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+'Finished building libraries'
+16:40:34 **** Build of configuration Debug for project top ****
+make all 
+'Building file: ../src/asr.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/asr.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/asr.d" -MT"src/asr.d" -o "src/asr.o" "../src/asr.c"
+'Finished building: ../src/asr.c'
+' '
+'Building file: ../src/dht.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dht.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/dht.d" -MT"src/dht.d" -o "src/dht.o" "../src/dht.c"
+'Finished building: ../src/dht.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:71:3: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+   sleep(1);
+   ^
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/oled.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/oled.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/oled.d" -MT"src/oled.d" -o "src/oled.o" "../src/oled.c"
+../src/oled.c: In function 'OLED_Init':
+../src/oled.c:228:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(50000);
+  ^
+'Finished building: ../src/oled.c'
+' '
+'Building file: ../src/pm.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pm.d" -MT"src/pm.d" -o "src/pm.o" "../src/pm.c"
+../src/pm.c: In function 'ShowPM':
+../src/pm.c:15:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  int pm25 = Xil_In32(XPAR_PM_S00_AXI_BASEADDR);
+  ^
+../src/pm.c:19:5: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+     OLED_ShowString(5,1,"PM2.5:",16);
+     ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:20:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(5,3,"PM10:",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:21:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(5,5,"PM1.0:",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:25:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(85,1,"ug/m3",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:26:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(85,3,"ug/m3",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:27:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(85,5,"ug/m3",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+'Finished building: ../src/pm.c'
+' '
+'Building file: ../src/tts.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/tts.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/tts.d" -MT"src/tts.d" -o "src/tts.o" "../src/tts.c"
+../src/tts.c: In function 'Send_TTS':
+../src/tts.c:24:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+'Finished building: ../src/tts.c'
+' '
+'Building target: top.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../top_bsp/ps7_cortexa9_0/lib -o "top.elf"  ./src/asr.o ./src/dht.o ./src/main.o ./src/oled.o ./src/pm.o ./src/tts.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: top.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size top.elf  |tee "top.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29432	   3576	  22564	  55572	   d914	top.elf
+'Finished building: top.elf.size'
+' '
+16:41:25 **** Auto Build of configuration Debug for project top ****
+make all 
+'Building file: ../src/pm.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pm.d" -MT"src/pm.d" -o "src/pm.o" "../src/pm.c"
+../src/pm.c: In function 'ShowPM':
+../src/pm.c:15:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  int pm25 = Xil_In32(XPAR_PM_S00_AXI_BASEADDR);
+  ^
+../src/pm.c:19:5: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+     OLED_ShowString(5,1,"PM2.5:",16);
+     ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:20:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(5,3,"PM10:",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:21:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(5,5,"PM1.0:",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:25:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(85,1,"ug/m3",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:26:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(85,3,"ug/m3",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:27:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(85,5,"ug/m3",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:70:11: error: 'SendBuffer2' undeclared (first use in this function)
+  Send_TTS(SendBuffer2,sizeof SendBuffer2);
+           ^
+../src/pm.c:70:11: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/pm.o] ´íÎó 1
+16:41:42 **** Auto Build of configuration Debug for project top ****
+make all 
+'Building file: ../src/pm.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pm.d" -MT"src/pm.d" -o "src/pm.o" "../src/pm.c"
+../src/pm.c: In function 'ShowPM':
+../src/pm.c:15:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  int pm25 = Xil_In32(XPAR_PM_S00_AXI_BASEADDR);
+  ^
+../src/pm.c:19:5: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+     OLED_ShowString(5,1,"PM2.5:",16);
+     ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:20:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(5,3,"PM10:",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:21:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(5,5,"PM1.0:",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:25:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(85,1,"ug/m3",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:26:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(85,3,"ug/m3",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:27:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(85,5,"ug/m3",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:73:2: error: expected '(' before 'Send_TTS'
+  Send_TTS(SendBuffer2,sizeof SendBuffer2);
+  ^
+make: *** [src/pm.o] ´íÎó 1
+16:42:16 **** Auto Build of configuration Debug for project top ****
+make all 
+'Building file: ../src/pm.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pm.d" -MT"src/pm.d" -o "src/pm.o" "../src/pm.c"
+../src/pm.c: In function 'ShowPM':
+../src/pm.c:15:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  int pm25 = Xil_In32(XPAR_PM_S00_AXI_BASEADDR);
+  ^
+../src/pm.c:19:5: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+     OLED_ShowString(5,1,"PM2.5:",16);
+     ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:20:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(5,3,"PM10:",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:21:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(5,5,"PM1.0:",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:25:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(85,1,"ug/m3",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:26:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(85,3,"ug/m3",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:27:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(85,5,"ug/m3",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+'Finished building: ../src/pm.c'
+' '
+'Building target: top.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../top_bsp/ps7_cortexa9_0/lib -o "top.elf"  ./src/asr.o ./src/dht.o ./src/main.o ./src/oled.o ./src/pm.o ./src/tts.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: top.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size top.elf  |tee "top.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29496	   3576	  22564	  55636	   d954	top.elf
+'Finished building: top.elf.size'
+' '
+16:42:19 **** Auto Build of configuration Debug for project top ****
+make all 
+'Building file: ../src/pm.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pm.d" -MT"src/pm.d" -o "src/pm.o" "../src/pm.c"
+../src/pm.c: In function 'ShowPM':
+../src/pm.c:15:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  int pm25 = Xil_In32(XPAR_PM_S00_AXI_BASEADDR);
+  ^
+../src/pm.c:19:5: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+     OLED_ShowString(5,1,"PM2.5:",16);
+     ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:20:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(5,3,"PM10:",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:21:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(5,5,"PM1.0:",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:25:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(85,1,"ug/m3",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:26:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(85,3,"ug/m3",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:27:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(85,5,"ug/m3",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+'Finished building: ../src/pm.c'
+' '
+'Building target: top.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../top_bsp/ps7_cortexa9_0/lib -o "top.elf"  ./src/asr.o ./src/dht.o ./src/main.o ./src/oled.o ./src/pm.o ./src/tts.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: top.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size top.elf  |tee "top.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29496	   3576	  22564	  55636	   d954	top.elf
+'Finished building: top.elf.size'
+' '
+16:42:21 **** Auto Build of configuration Debug for project top ****
+make all 
+'Building file: ../src/pm.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pm.d" -MT"src/pm.d" -o "src/pm.o" "../src/pm.c"
+../src/pm.c: In function 'ShowPM':
+../src/pm.c:15:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  int pm25 = Xil_In32(XPAR_PM_S00_AXI_BASEADDR);
+  ^
+../src/pm.c:19:5: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+     OLED_ShowString(5,1,"PM2.5:",16);
+     ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:20:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(5,3,"PM10:",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:21:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(5,5,"PM1.0:",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:25:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(85,1,"ug/m3",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:26:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(85,3,"ug/m3",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:27:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(85,5,"ug/m3",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+'Finished building: ../src/pm.c'
+' '
+'Building target: top.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../top_bsp/ps7_cortexa9_0/lib -o "top.elf"  ./src/asr.o ./src/dht.o ./src/main.o ./src/oled.o ./src/pm.o ./src/tts.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: top.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size top.elf  |tee "top.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29496	   3576	  22564	  55636	   d954	top.elf
+'Finished building: top.elf.size'
+' '
+16:42:26 **** Auto Build of configuration Debug for project top ****
+make all 
+'Building file: ../src/pm.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pm.d" -MT"src/pm.d" -o "src/pm.o" "../src/pm.c"
+../src/pm.c: In function 'ShowPM':
+../src/pm.c:15:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  int pm25 = Xil_In32(XPAR_PM_S00_AXI_BASEADDR);
+  ^
+../src/pm.c:19:5: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+     OLED_ShowString(5,1,"PM2.5:",16);
+     ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:20:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(5,3,"PM10:",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:21:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(5,5,"PM1.0:",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:25:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(85,1,"ug/m3",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:26:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(85,3,"ug/m3",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:27:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(85,5,"ug/m3",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+'Finished building: ../src/pm.c'
+' '
+'Building target: top.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../top_bsp/ps7_cortexa9_0/lib -o "top.elf"  ./src/asr.o ./src/dht.o ./src/main.o ./src/oled.o ./src/pm.o ./src/tts.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: top.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size top.elf  |tee "top.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29496	   3576	  22564	  55636	   d954	top.elf
+'Finished building: top.elf.size'
+' '
+16:42:29 **** Auto Build of configuration Debug for project top ****
+make all 
+'Building file: ../src/pm.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pm.d" -MT"src/pm.d" -o "src/pm.o" "../src/pm.c"
+../src/pm.c: In function 'ShowPM':
+../src/pm.c:15:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  int pm25 = Xil_In32(XPAR_PM_S00_AXI_BASEADDR);
+  ^
+../src/pm.c:19:5: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+     OLED_ShowString(5,1,"PM2.5:",16);
+     ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:20:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(5,3,"PM10:",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:21:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(5,5,"PM1.0:",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:25:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(85,1,"ug/m3",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:26:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(85,3,"ug/m3",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:27:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(85,5,"ug/m3",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+'Finished building: ../src/pm.c'
+' '
+'Building target: top.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../top_bsp/ps7_cortexa9_0/lib -o "top.elf"  ./src/asr.o ./src/dht.o ./src/main.o ./src/oled.o ./src/pm.o ./src/tts.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: top.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size top.elf  |tee "top.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29496	   3576	  22564	  55636	   d954	top.elf
+'Finished building: top.elf.size'
+' '
+16:43:02 **** Auto Build of configuration Debug for project top ****
+make all 
+'Building file: ../src/pm.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pm.d" -MT"src/pm.d" -o "src/pm.o" "../src/pm.c"
+../src/pm.c: In function 'ShowPM':
+../src/pm.c:15:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  int pm25 = Xil_In32(XPAR_PM_S00_AXI_BASEADDR);
+  ^
+../src/pm.c:19:5: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+     OLED_ShowString(5,1,"PM2.5:",16);
+     ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:20:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(5,3,"PM10:",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:21:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(5,5,"PM1.0:",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:25:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(85,1,"ug/m3",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:26:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(85,3,"ug/m3",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:27:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(85,5,"ug/m3",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+'Finished building: ../src/pm.c'
+' '
+'Building target: top.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../top_bsp/ps7_cortexa9_0/lib -o "top.elf"  ./src/asr.o ./src/dht.o ./src/main.o ./src/oled.o ./src/pm.o ./src/tts.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: top.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size top.elf  |tee "top.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29496	   3576	  22564	  55636	   d954	top.elf
+'Finished building: top.elf.size'
+' '
+16:43:04 **** Auto Build of configuration Debug for project top ****
+make all 
+'Building file: ../src/pm.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pm.d" -MT"src/pm.d" -o "src/pm.o" "../src/pm.c"
+../src/pm.c: In function 'ShowPM':
+../src/pm.c:15:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  int pm25 = Xil_In32(XPAR_PM_S00_AXI_BASEADDR);
+  ^
+../src/pm.c:19:5: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+     OLED_ShowString(5,1,"PM2.5:",16);
+     ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:20:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(5,3,"PM10:",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:21:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(5,5,"PM1.0:",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:25:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(85,1,"ug/m3",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:26:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(85,3,"ug/m3",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:27:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(85,5,"ug/m3",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+'Finished building: ../src/pm.c'
+' '
+'Building target: top.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../top_bsp/ps7_cortexa9_0/lib -o "top.elf"  ./src/asr.o ./src/dht.o ./src/main.o ./src/oled.o ./src/pm.o ./src/tts.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: top.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size top.elf  |tee "top.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29496	   3576	  22564	  55636	   d954	top.elf
+'Finished building: top.elf.size'
+' '
+16:43:57 **** Incremental Build of configuration Debug for project top ****
+make all 
+make: Nothing to be done for `all'.
+16:44:16 **** Incremental Build of configuration Debug for project top ****
+make all 
+make: Nothing to be done for `all'.
+16:45:44 **** Auto Build of configuration Debug for project top ****
+make all 
+'Building file: ../src/asr.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/asr.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/asr.d" -MT"src/asr.d" -o "src/asr.o" "../src/asr.c"
+'Finished building: ../src/asr.c'
+' '
+'Building target: top.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../top_bsp/ps7_cortexa9_0/lib -o "top.elf"  ./src/asr.o ./src/dht.o ./src/main.o ./src/oled.o ./src/pm.o ./src/tts.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: top.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size top.elf  |tee "top.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29496	   3576	  22564	  55636	   d954	top.elf
+'Finished building: top.elf.size'
+' '
+16:45:48 **** Incremental Build of configuration Debug for project top ****
+make all 
+make: Nothing to be done for `all'.
+16:46:31 **** Incremental Build of configuration Debug for project top ****
+make all 
+make: Nothing to be done for `all'.
+16:52:32 **** Auto Build of configuration Debug for project top ****
+make all 
+'Building file: ../src/asr.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/asr.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/asr.d" -MT"src/asr.d" -o "src/asr.o" "../src/asr.c"
+'Finished building: ../src/asr.c'
+' '
+'Building target: top.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../top_bsp/ps7_cortexa9_0/lib -o "top.elf"  ./src/asr.o ./src/dht.o ./src/main.o ./src/oled.o ./src/pm.o ./src/tts.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: top.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size top.elf  |tee "top.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29496	   3576	  22564	  55636	   d954	top.elf
+'Finished building: top.elf.size'
+' '
+16:52:51 **** Auto Build of configuration Debug for project top ****
+make all 
+'Building file: ../src/asr.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/asr.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/asr.d" -MT"src/asr.d" -o "src/asr.o" "../src/asr.c"
+'Finished building: ../src/asr.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:71:3: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+   sleep(1);
+   ^
+'Finished building: ../src/main.c'
+' '
+'Building target: top.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../top_bsp/ps7_cortexa9_0/lib -o "top.elf"  ./src/asr.o ./src/dht.o ./src/main.o ./src/oled.o ./src/pm.o ./src/tts.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: top.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size top.elf  |tee "top.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29496	   3576	  22580	  55652	   d964	top.elf
+'Finished building: top.elf.size'
+' '
+16:52:54 **** Auto Build of configuration Debug for project top ****
+make all 
+'Building file: ../src/asr.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/asr.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/asr.d" -MT"src/asr.d" -o "src/asr.o" "../src/asr.c"
+'Finished building: ../src/asr.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:71:3: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+   sleep(1);
+   ^
+'Finished building: ../src/main.c'
+' '
+'Building target: top.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../top_bsp/ps7_cortexa9_0/lib -o "top.elf"  ./src/asr.o ./src/dht.o ./src/main.o ./src/oled.o ./src/pm.o ./src/tts.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o:(.data+0x0): multiple definition of `front_status'
+./src/asr.o:(.data+0x0): first defined here
+collect2.exe: error: ld returned 1 exit status
+make: *** [top.elf] ´íÎó 1
+16:53:23 **** Auto Build of configuration Debug for project top ****
+make all 
+'Building file: ../src/asr.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/asr.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/asr.d" -MT"src/asr.d" -o "src/asr.o" "../src/asr.c"
+'Finished building: ../src/asr.c'
+' '
+'Building target: top.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../top_bsp/ps7_cortexa9_0/lib -o "top.elf"  ./src/asr.o ./src/dht.o ./src/main.o ./src/oled.o ./src/pm.o ./src/tts.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o:(.data+0x0): multiple definition of `front_status'
+./src/asr.o:(.data+0x0): first defined here
+collect2.exe: error: ld returned 1 exit status
+make: *** [top.elf] ´íÎó 1
+16:54:19 **** Incremental Build of configuration Debug for project top ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:73:3: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+   sleep(1);
+   ^
+'Finished building: ../src/main.c'
+' '
+'Building target: top.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../top_bsp/ps7_cortexa9_0/lib -o "top.elf"  ./src/asr.o ./src/dht.o ./src/main.o ./src/oled.o ./src/pm.o ./src/tts.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o:(.data+0x0): multiple definition of `front_status'
+./src/asr.o:(.data+0x0): first defined here
+collect2.exe: error: ld returned 1 exit status
+make: *** [top.elf] ´íÎó 1
+16:54:33 **** Incremental Build of configuration Debug for project top ****
+make all 
+'Building target: top.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../top_bsp/ps7_cortexa9_0/lib -o "top.elf"  ./src/asr.o ./src/dht.o ./src/main.o ./src/oled.o ./src/pm.o ./src/tts.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o:(.data+0x0): multiple definition of `front_status'
+./src/asr.o:(.data+0x0): first defined here
+collect2.exe: error: ld returned 1 exit status
+make: *** [top.elf] ´íÎó 1
+16:55:25 **** Auto Build of configuration Debug for project top ****
+make all 
+'Building file: ../src/asr.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/asr.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/asr.d" -MT"src/asr.d" -o "src/asr.o" "../src/asr.c"
+../src/asr.c:10:5: error: redefinition of 'front_status'
+ int front_status = -1;
+     ^
+In file included from ../src/asr.c:7:0:
+../src/asr.h:17:5: note: previous definition of 'front_status' was here
+ int front_status = -1;
+     ^
+make: *** [src/asr.o] ´íÎó 1
+16:55:31 **** Auto Build of configuration Debug for project top ****
+make all 
+'Building file: ../src/asr.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/asr.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/asr.d" -MT"src/asr.d" -o "src/asr.o" "../src/asr.c"
+../src/asr.c:10:5: error: redefinition of 'front_status'
+ int front_status = -1;
+     ^
+In file included from ../src/asr.c:7:0:
+../src/asr.h:17:5: note: previous definition of 'front_status' was here
+ int front_status = -1;
+     ^
+make: *** [src/asr.o] ´íÎó 1
+16:55:35 **** Auto Build of configuration Debug for project top ****
+make all 
+'Building file: ../src/asr.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/asr.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/asr.d" -MT"src/asr.d" -o "src/asr.o" "../src/asr.c"
+'Finished building: ../src/asr.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:73:3: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+   sleep(1);
+   ^
+'Finished building: ../src/main.c'
+' '
+'Building target: top.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../top_bsp/ps7_cortexa9_0/lib -o "top.elf"  ./src/asr.o ./src/dht.o ./src/main.o ./src/oled.o ./src/pm.o ./src/tts.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: top.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size top.elf  |tee "top.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29496	   3584	  22564	  55644	   d95c	top.elf
+'Finished building: top.elf.size'
+' '
+16:55:40 **** Incremental Build of configuration Debug for project top ****
+make all 
+make: Nothing to be done for `all'.
+16:57:44 **** Auto Build of configuration Debug for project top ****
+make all 
+'Building file: ../src/pm.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pm.d" -MT"src/pm.d" -o "src/pm.o" "../src/pm.c"
+../src/pm.c: In function 'ShowPM':
+../src/pm.c:15:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  int pm25 = Xil_In32(XPAR_PM_S00_AXI_BASEADDR);
+  ^
+../src/pm.c:19:5: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+     OLED_ShowString(5,1,"PM2.5:",16);
+     ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:20:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(5,3,"PM10:",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:21:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(5,5,"PM1.0:",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:25:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(85,1,"ug/m3",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:26:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(85,3,"ug/m3",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:27:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(85,5,"ug/m3",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+'Finished building: ../src/pm.c'
+' '
+'Building target: top.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../top_bsp/ps7_cortexa9_0/lib -o "top.elf"  ./src/asr.o ./src/dht.o ./src/main.o ./src/oled.o ./src/pm.o ./src/tts.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: top.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size top.elf  |tee "top.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29560	   3584	  22564	  55708	   d99c	top.elf
+'Finished building: top.elf.size'
+' '
+16:58:07 **** Auto Build of configuration Debug for project top ****
+make all 
+'Building file: ../src/pm.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pm.d" -MT"src/pm.d" -o "src/pm.o" "../src/pm.c"
+../src/pm.c: In function 'ShowPM':
+../src/pm.c:15:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  int pm25 = Xil_In32(XPAR_PM_S00_AXI_BASEADDR);
+  ^
+../src/pm.c:19:5: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+     OLED_ShowString(5,1,"PM2.5:",16);
+     ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:20:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(5,3,"PM10:",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:21:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(5,5,"PM1.0:",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:25:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(85,1,"ug/m3",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:26:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(85,3,"ug/m3",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:27:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(85,5,"ug/m3",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+'Finished building: ../src/pm.c'
+' '
+'Building target: top.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../top_bsp/ps7_cortexa9_0/lib -o "top.elf"  ./src/asr.o ./src/dht.o ./src/main.o ./src/oled.o ./src/pm.o ./src/tts.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: top.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size top.elf  |tee "top.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29560	   3584	  22564	  55708	   d99c	top.elf
+'Finished building: top.elf.size'
+' '
+16:58:31 **** Auto Build of configuration Debug for project top ****
+make all 
+'Building file: ../src/pm.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pm.d" -MT"src/pm.d" -o "src/pm.o" "../src/pm.c"
+../src/pm.c: In function 'ShowPM':
+../src/pm.c:15:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  int pm25 = Xil_In32(XPAR_PM_S00_AXI_BASEADDR);
+  ^
+../src/pm.c:19:5: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+     OLED_ShowString(5,1,"PM2.5:",16);
+     ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:20:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(5,3,"PM10:",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:21:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(5,5,"PM1.0:",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:25:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(85,1,"ug/m3",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:26:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(85,3,"ug/m3",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:27:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(85,5,"ug/m3",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+'Finished building: ../src/pm.c'
+' '
+'Building target: top.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../top_bsp/ps7_cortexa9_0/lib -o "top.elf"  ./src/asr.o ./src/dht.o ./src/main.o ./src/oled.o ./src/pm.o ./src/tts.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: top.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size top.elf  |tee "top.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29560	   3584	  22564	  55708	   d99c	top.elf
+'Finished building: top.elf.size'
+' '
+16:58:57 **** Auto Build of configuration Debug for project top ****
+make all 
+'Building file: ../src/pm.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pm.d" -MT"src/pm.d" -o "src/pm.o" "../src/pm.c"
+../src/pm.c: In function 'ShowPM':
+../src/pm.c:15:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  int pm25 = Xil_In32(XPAR_PM_S00_AXI_BASEADDR);
+  ^
+../src/pm.c:19:5: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+     OLED_ShowString(5,1,"PM2.5:",16);
+     ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:20:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(5,3,"PM10:",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:21:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(5,5,"PM1.0:",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:25:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(85,1,"ug/m3",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:26:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(85,3,"ug/m3",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:27:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(85,5,"ug/m3",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+'Finished building: ../src/pm.c'
+' '
+'Building target: top.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../top_bsp/ps7_cortexa9_0/lib -o "top.elf"  ./src/asr.o ./src/dht.o ./src/main.o ./src/oled.o ./src/pm.o ./src/tts.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: top.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size top.elf  |tee "top.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29560	   3584	  22564	  55708	   d99c	top.elf
+'Finished building: top.elf.size'
+' '
+16:59:25 **** Incremental Build of configuration Debug for project top ****
+make all 
+'Building file: ../src/pm.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pm.d" -MT"src/pm.d" -o "src/pm.o" "../src/pm.c"
+../src/pm.c: In function 'ShowPM':
+../src/pm.c:15:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  int pm25 = Xil_In32(XPAR_PM_S00_AXI_BASEADDR);
+  ^
+../src/pm.c:19:5: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+     OLED_ShowString(5,1,"PM2.5:",16);
+     ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:20:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(5,3,"PM10:",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:21:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(5,5,"PM1.0:",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:25:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(85,1,"ug/m3",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:26:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(85,3,"ug/m3",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:27:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(85,5,"ug/m3",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+'Finished building: ../src/pm.c'
+' '
+'Building target: top.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../top_bsp/ps7_cortexa9_0/lib -o "top.elf"  ./src/asr.o ./src/dht.o ./src/main.o ./src/oled.o ./src/pm.o ./src/tts.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: top.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size top.elf  |tee "top.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29560	   3584	  22564	  55708	   d99c	top.elf
+'Finished building: top.elf.size'
+' '
+16:59:37 **** Incremental Build of configuration Debug for project top ****
+make all 
+make: Nothing to be done for `all'.
+17:02:59 **** Auto Build of configuration Debug for project top ****
+make all 
+'Building file: ../src/pm.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pm.d" -MT"src/pm.d" -o "src/pm.o" "../src/pm.c"
+../src/pm.c: In function 'ShowPM':
+../src/pm.c:15:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  int pm25 = Xil_In32(XPAR_PM_S00_AXI_BASEADDR);
+  ^
+../src/pm.c:19:5: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+     OLED_ShowString(5,1,"PM2.5:",16);
+     ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:20:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(5,3,"PM10:",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:21:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(5,5,"PM1.0:",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:25:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(85,1,"ug/m3",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:26:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(85,3,"ug/m3",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:27:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(85,5,"ug/m3",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+'Finished building: ../src/pm.c'
+' '
+'Building target: top.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../top_bsp/ps7_cortexa9_0/lib -o "top.elf"  ./src/asr.o ./src/dht.o ./src/main.o ./src/oled.o ./src/pm.o ./src/tts.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: top.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size top.elf  |tee "top.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29560	   3584	  22564	  55708	   d99c	top.elf
+'Finished building: top.elf.size'
+' '
+17:03:03 **** Incremental Build of configuration Debug for project top ****
+make all 
+make: Nothing to be done for `all'.
+17:03:11 **** Incremental Build of configuration Debug for project top ****
+make all 
+make: Nothing to be done for `all'.
+17:08:05 **** Incremental Build of configuration Debug for project top ****
+make all 
+make: Nothing to be done for `all'.
+17:11:49 **** Incremental Build of configuration Debug for project top ****
+make all 
+make: Nothing to be done for `all'.
+17:12:45 **** Incremental Build of configuration Debug for project top ****
+make all 
+make: Nothing to be done for `all'.
+17:15:46 **** Incremental Build of configuration Debug for project top ****
+make all 
+make: Nothing to be done for `all'.
+17:15:55 **** Incremental Build of configuration Debug for project top ****
+make all 
+make: Nothing to be done for `all'.
+17:16:42 **** Incremental Build of configuration Debug for project top ****
+make all 
+make: Nothing to be done for `all'.
+17:16:54 **** Incremental Build of configuration Debug for project top ****
+make all 
+make: Nothing to be done for `all'.
+17:16:58 **** Incremental Build of configuration Debug for project top ****
+make all 
+make: Nothing to be done for `all'.
+17:17:59 **** Incremental Build of configuration Debug for project top ****
+make all 
+make: Nothing to be done for `all'.
+17:58:22 **** Auto Build of configuration Debug for project top ****
+make all 
+'Building file: ../src/pm.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pm.d" -MT"src/pm.d" -o "src/pm.o" "../src/pm.c"
+../src/pm.c: In function 'ShowPM':
+../src/pm.c:15:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  int pm25 = Xil_In32(XPAR_PM_S00_AXI_BASEADDR);
+  ^
+../src/pm.c:19:5: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+     OLED_ShowString(5,1,"PM2.5:",16);
+     ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:20:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(5,3,"PM10:",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:21:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(5,5,"PM1.0:",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:25:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(85,1,"ug/m3",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:26:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(85,3,"ug/m3",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:27:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(85,5,"ug/m3",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:78:3: error: unknown type name 'f'
+  }f
+   ^
+../src/pm.c:81:11: error: expected declaration specifiers or '...' before '&' token
+  Send_TTS(&pm10_gewei,sizeof pm10_gewei);
+           ^
+../src/pm.c:81:23: error: expected declaration specifiers or '...' before 'sizeof'
+  Send_TTS(&pm10_gewei,sizeof pm10_gewei);
+                       ^
+../src/pm.c:38:5: warning: unused variable 'pm10_gewei' [-Wunused-variable]
+  u8 pm10_gewei=(u8)(pm10%10+ 48);
+     ^
+make: *** [src/pm.o] ´íÎó 1
+00:30:19 **** Auto Build of configuration Debug for project top ****
+make all 
+'Building file: ../src/pm.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pm.d" -MT"src/pm.d" -o "src/pm.o" "../src/pm.c"
+../src/pm.c: In function 'ShowPM':
+../src/pm.c:15:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  int pm25 = Xil_In32(XPAR_PM_S00_AXI_BASEADDR);
+  ^
+../src/pm.c:19:5: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+     OLED_ShowString(5,1,"PM2.5:",16);
+     ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:20:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(5,3,"PM10:",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:21:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(5,5,"PM1.0:",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:25:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(85,1,"ug/m3",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:26:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(85,3,"ug/m3",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:27:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(85,5,"ug/m3",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+'Finished building: ../src/pm.c'
+' '
+'Building target: top.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../top_bsp/ps7_cortexa9_0/lib -o "top.elf"  ./src/asr.o ./src/dht.o ./src/main.o ./src/oled.o ./src/pm.o ./src/tts.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: top.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size top.elf  |tee "top.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29560	   3584	  22564	  55708	   d99c	top.elf
+'Finished building: top.elf.size'
+' '
+00:38:51 **** Auto Build of configuration Debug for project top ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:73:3: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+   sleep(1);
+   ^
+'Finished building: ../src/main.c'
+' '
+'Building target: top.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../top_bsp/ps7_cortexa9_0/lib -o "top.elf"  ./src/asr.o ./src/dht.o ./src/main.o ./src/oled.o ./src/pm.o ./src/tts.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: top.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size top.elf  |tee "top.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29560	   3584	  22564	  55708	   d99c	top.elf
+'Finished building: top.elf.size'
+' '
+00:39:00 **** Auto Build of configuration Debug for project top ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:72:3: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+   sleep(1);
+   ^
+'Finished building: ../src/main.c'
+' '
+'Building target: top.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../top_bsp/ps7_cortexa9_0/lib -o "top.elf"  ./src/asr.o ./src/dht.o ./src/main.o ./src/oled.o ./src/pm.o ./src/tts.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: top.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size top.elf  |tee "top.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29560	   3584	  22564	  55708	   d99c	top.elf
+'Finished building: top.elf.size'
+' '
+13:31:13 **** Build of configuration Debug for project top ****
+make all 
+make: Nothing to be done for `all'.
+13:31:31 **** Auto Build of configuration Debug for project top ****
+make all 
+'Building file: ../src/jiaquan(1).c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/jiaquan(1).o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/jiaquan(1).d" -MT"src/jiaquan(1).d" -o "src/jiaquan(1).o" "../src/jiaquan(1).c"
+../src/jiaquan(1).c: In function 'ShowPM':
+../src/jiaquan(1).c:7:25: error: 'XPAR_JIAQUAN_0_S00_AXI_BASEADDR' undeclared (first use in this function)
+  int jiaquan = Xil_In32(XPAR_JIAQUAN_0_S00_AXI_BASEADDR);
+                         ^
+../src/jiaquan(1).c:7:25: note: each undeclared identifier is reported only once for each function it appears in
+../src/jiaquan(1).c:16:20: error: 'temperature_int' undeclared (first use in this function)
+  OLED_ShowNum(60,1,temperature_int,2,16);
+                    ^
+../src/jiaquan(1).c:18:20: error: 'temperature_dec' undeclared (first use in this function)
+  OLED_ShowNum(90,1,temperature_dec,2,16);
+                    ^
+../src/jiaquan(1).c:23:20: error: 'humidity_int' undeclared (first use in this function)
+  OLED_ShowNum(60,4,humidity_int,2,16);
+                    ^
+../src/jiaquan(1).c:25:20: error: 'humidity_dec' undeclared (first use in this function)
+  OLED_ShowNum(90,4,humidity_dec,2,16);
+                    ^
+../src/jiaquan(1).c:34:3: warning: implicit declaration of function 'end_TTS' [-Wimplicit-function-declaration]
+   end_TTS(&a_shiwei,sizeof a_shiwei);
+   ^
+make: *** [src/jiaquan(1).o] ´íÎó 1
+13:31:43 **** Clean-only build of configuration Debug for project top ****
+make clean 
+rm -rf  ./src/asr.o ./src/dht.o ./src/jiaquan(1).o ./src/jq.o ./src/main.o ./src/oled.o ./src/pm.o ./src/tts.o  ./src/asr.d ./src/dht.d ./src/jiaquan(1).d ./src/jq.d ./src/main.d ./src/oled.d ./src/pm.d ./src/tts.d  top.elf.size  top.elf
+' '
+13:31:43 **** Auto Build of configuration Debug for project top ****
+make all 
+'Building file: ../src/asr.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/asr.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/asr.d" -MT"src/asr.d" -o "src/asr.o" "../src/asr.c"
+'Finished building: ../src/asr.c'
+' '
+'Building file: ../src/dht.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dht.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/dht.d" -MT"src/dht.d" -o "src/dht.o" "../src/dht.c"
+'Finished building: ../src/dht.c'
+' '
+'Building file: ../src/jq.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/jq.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/jq.d" -MT"src/jq.d" -o "src/jq.o" "../src/jq.c"
+../src/jq.c:3:16: fatal error: jq.h: No such file or directory
+ #include "jq.h"
+                ^
+compilation terminated.
+make: *** [src/jq.o] ´íÎó 1
+13:32:02 **** Clean-only build of configuration Debug for project top ****
+make clean 
+rm -rf  ./src/asr.o ./src/dht.o ./src/jq.o ./src/main.o ./src/oled.o ./src/pm.o ./src/tts.o  ./src/asr.d ./src/dht.d ./src/jq.d ./src/main.d ./src/oled.d ./src/pm.d ./src/tts.d  top.elf.size  top.elf
+' '
+13:32:02 **** Auto Build of configuration Debug for project top ****
+make all 
+'Building file: ../src/asr.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/asr.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/asr.d" -MT"src/asr.d" -o "src/asr.o" "../src/asr.c"
+'Finished building: ../src/asr.c'
+' '
+'Building file: ../src/dht.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dht.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/dht.d" -MT"src/dht.d" -o "src/dht.o" "../src/dht.c"
+'Finished building: ../src/dht.c'
+' '
+'Building file: ../src/jq.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/jq.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/jq.d" -MT"src/jq.d" -o "src/jq.o" "../src/jq.c"
+../src/jq.c:3:16: fatal error: jq.h: No such file or directory
+ #include "jq.h"
+                ^
+compilation terminated.
+make: *** [src/jq.o] ´íÎó 1
+13:32:09 **** Auto Build of configuration Debug for project top ****
+make all 
+'Building file: ../src/jq.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/jq.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/jq.d" -MT"src/jq.d" -o "src/jq.o" "../src/jq.c"
+../src/jq.c: In function 'ShowJQ':
+../src/jq.c:19:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(70,2,"ug/m3",16);
+  ^
+In file included from ../src/jq.h:12:0,
+                 from ../src/jq.c:3:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/jq.c:8:6: warning: unused variable 'jiaquan' [-Wunused-variable]
+  int jiaquan = Xil_In32(XPAR_JQ_S00_AXI_BASEADDR);
+      ^
+'Finished building: ../src/jq.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:72:3: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+   sleep(1);
+   ^
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/oled.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/oled.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/oled.d" -MT"src/oled.d" -o "src/oled.o" "../src/oled.c"
+../src/oled.c: In function 'OLED_Init':
+../src/oled.c:228:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(50000);
+  ^
+'Finished building: ../src/oled.c'
+' '
+'Building file: ../src/pm.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pm.d" -MT"src/pm.d" -o "src/pm.o" "../src/pm.c"
+../src/pm.c: In function 'ShowPM':
+../src/pm.c:15:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  int pm25 = Xil_In32(XPAR_PM_S00_AXI_BASEADDR);
+  ^
+../src/pm.c:19:5: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+     OLED_ShowString(5,1,"PM2.5:",16);
+     ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:20:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(5,3,"PM10:",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:21:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(5,5,"PM1.0:",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:25:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(85,1,"ug/m3",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:26:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(85,3,"ug/m3",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:27:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(85,5,"ug/m3",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+'Finished building: ../src/pm.c'
+' '
+'Building file: ../src/tts.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/tts.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/tts.d" -MT"src/tts.d" -o "src/tts.o" "../src/tts.c"
+../src/tts.c: In function 'Send_TTS':
+../src/tts.c:24:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+'Finished building: ../src/tts.c'
+' '
+'Building target: top.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../top_bsp/ps7_cortexa9_0/lib -o "top.elf"  ./src/asr.o ./src/dht.o ./src/jq.o ./src/main.o ./src/oled.o ./src/pm.o ./src/tts.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: top.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size top.elf  |tee "top.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30120	   3584	  22564	  56268	   dbcc	top.elf
+'Finished building: top.elf.size'
+' '
+13:32:13 **** Clean-only build of configuration Debug for project top ****
+make clean 
+rm -rf  ./src/asr.o ./src/dht.o ./src/jq.o ./src/main.o ./src/oled.o ./src/pm.o ./src/tts.o  ./src/asr.d ./src/dht.d ./src/jq.d ./src/main.d ./src/oled.d ./src/pm.d ./src/tts.d  top.elf.size  top.elf
+' '
+13:32:13 **** Auto Build of configuration Debug for project top ****
+make all 
+'Building file: ../src/asr.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/asr.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/asr.d" -MT"src/asr.d" -o "src/asr.o" "../src/asr.c"
+'Finished building: ../src/asr.c'
+' '
+'Building file: ../src/dht.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dht.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/dht.d" -MT"src/dht.d" -o "src/dht.o" "../src/dht.c"
+'Finished building: ../src/dht.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:72:3: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+   sleep(1);
+   ^
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/oled.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/oled.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/oled.d" -MT"src/oled.d" -o "src/oled.o" "../src/oled.c"
+../src/oled.c: In function 'OLED_Init':
+../src/oled.c:228:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(50000);
+  ^
+'Finished building: ../src/oled.c'
+' '
+'Building file: ../src/pm.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pm.d" -MT"src/pm.d" -o "src/pm.o" "../src/pm.c"
+../src/pm.c: In function 'ShowPM':
+../src/pm.c:15:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  int pm25 = Xil_In32(XPAR_PM_S00_AXI_BASEADDR);
+  ^
+../src/pm.c:19:5: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+     OLED_ShowString(5,1,"PM2.5:",16);
+     ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:20:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(5,3,"PM10:",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:21:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(5,5,"PM1.0:",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:25:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(85,1,"ug/m3",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:26:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(85,3,"ug/m3",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:27:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(85,5,"ug/m3",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+'Finished building: ../src/pm.c'
+' '
+'Building file: ../src/tts.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/tts.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/tts.d" -MT"src/tts.d" -o "src/tts.o" "../src/tts.c"
+../src/tts.c: In function 'Send_TTS':
+../src/tts.c:24:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+'Finished building: ../src/tts.c'
+' '
+'Building target: top.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../top_bsp/ps7_cortexa9_0/lib -o "top.elf"  ./src/asr.o ./src/dht.o ./src/main.o ./src/oled.o ./src/pm.o ./src/tts.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: top.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size top.elf  |tee "top.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29560	   3584	  22564	  55708	   d99c	top.elf
+'Finished building: top.elf.size'
+' '
+13:32:22 **** Auto Build of configuration Debug for project top ****
+make all 
+'Building file: ../src/jq.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/jq.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/jq.d" -MT"src/jq.d" -o "src/jq.o" "../src/jq.c"
+../src/jq.c: In function 'ShowJQ':
+../src/jq.c:19:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(70,2,"ug/m3",16);
+  ^
+In file included from ../src/jq.h:12:0,
+                 from ../src/jq.c:3:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/jq.c:8:6: warning: unused variable 'jiaquan' [-Wunused-variable]
+  int jiaquan = Xil_In32(XPAR_JQ_S00_AXI_BASEADDR);
+      ^
+'Finished building: ../src/jq.c'
+' '
+'Building target: top.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../top_bsp/ps7_cortexa9_0/lib -o "top.elf"  ./src/asr.o ./src/dht.o ./src/jq.o ./src/main.o ./src/oled.o ./src/pm.o ./src/tts.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: top.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size top.elf  |tee "top.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30120	   3584	  22564	  56268	   dbcc	top.elf
+'Finished building: top.elf.size'
+' '
+13:32:48 **** Auto Build of configuration Debug for project top ****
+make all 
+'Building file: ../src/asr.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/asr.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/asr.d" -MT"src/asr.d" -o "src/asr.o" "../src/asr.c"
+../src/asr.c: In function 'Handle_ASR':
+../src/asr.c:24:4: warning: implicit declaration of function 'ShowJQ' [-Wimplicit-function-declaration]
+    ShowJQ();
+    ^
+'Finished building: ../src/asr.c'
+' '
+'Building target: top.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../top_bsp/ps7_cortexa9_0/lib -o "top.elf"  ./src/asr.o ./src/dht.o ./src/jq.o ./src/main.o ./src/oled.o ./src/pm.o ./src/tts.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: top.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size top.elf  |tee "top.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30120	   3584	  22564	  56268	   dbcc	top.elf
+'Finished building: top.elf.size'
+' '
+13:32:57 **** Auto Build of configuration Debug for project top ****
+make all 
+'Building file: ../src/asr.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/asr.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/asr.d" -MT"src/asr.d" -o "src/asr.o" "../src/asr.c"
+'Finished building: ../src/asr.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:72:3: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+   sleep(1);
+   ^
+'Finished building: ../src/main.c'
+' '
+'Building target: top.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../top_bsp/ps7_cortexa9_0/lib -o "top.elf"  ./src/asr.o ./src/dht.o ./src/jq.o ./src/main.o ./src/oled.o ./src/pm.o ./src/tts.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: top.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size top.elf  |tee "top.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30120	   3584	  22564	  56268	   dbcc	top.elf
+'Finished building: top.elf.size'
+' '
+13:33:44 **** Incremental Build of configuration Debug for project top ****
+make all 
+make: Nothing to be done for `all'.
+13:36:05 **** Incremental Build of configuration Debug for project top ****
+make all 
+make: Nothing to be done for `all'.
+13:36:51 **** Incremental Build of configuration Debug for project top ****
+make all 
+make: Nothing to be done for `all'.
+13:36:57 **** Incremental Build of configuration Debug for project top ****
+make all 
+make: Nothing to be done for `all'.
+13:37:38 **** Incremental Build of configuration Debug for project top ****
+make all 
+make: Nothing to be done for `all'.
+13:38:58 **** Auto Build of configuration Debug for project top ****
+make all 
+'Building file: ../src/oled.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/oled.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/oled.d" -MT"src/oled.d" -o "src/oled.o" "../src/oled.c"
+../src/oled.c: In function 'OLED_Init':
+../src/oled.c:228:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(50000);
+  ^
+'Finished building: ../src/oled.c'
+' '
+'Building target: top.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../top_bsp/ps7_cortexa9_0/lib -o "top.elf"  ./src/asr.o ./src/dht.o ./src/jq.o ./src/main.o ./src/oled.o ./src/pm.o ./src/tts.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: top.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size top.elf  |tee "top.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30120	   3648	  22564	  56332	   dc0c	top.elf
+'Finished building: top.elf.size'
+' '
+13:39:33 **** Incremental Build of configuration Debug for project top ****
+make all 
+make: Nothing to be done for `all'.
+13:39:44 **** Incremental Build of configuration Debug for project top ****
+make all 
+make: Nothing to be done for `all'.
+13:39:57 **** Incremental Build of configuration Debug for project top ****
+make all 
+make: Nothing to be done for `all'.
+13:51:55 **** Incremental Build of configuration Debug for project top ****
+make all 
+make: Nothing to be done for `all'.
+13:52:00 **** Incremental Build of configuration Debug for project top ****
+make all 
+make: Nothing to be done for `all'.
+14:18:03 **** Incremental Build of configuration Debug for project top ****
+make all 
+make: Nothing to be done for `all'.
+14:18:09 **** Incremental Build of configuration Debug for project top ****
+make all 
+make: Nothing to be done for `all'.
+14:18:52 **** Incremental Build of configuration Debug for project top ****
+make all 
+make: Nothing to be done for `all'.
+14:19:04 **** Incremental Build of configuration Debug for project top ****
+make all 
+make: Nothing to be done for `all'.
+14:19:10 **** Incremental Build of configuration Debug for project top ****
+make all 
+make: Nothing to be done for `all'.
+14:20:00 **** Incremental Build of configuration Debug for project top ****
+make all 
+make: Nothing to be done for `all'.
+14:20:07 **** Incremental Build of configuration Debug for project top ****
+make all 
+make: Nothing to be done for `all'.
+15:19:02 **** Auto Build of configuration Debug for project top ****
+make all 
+'Building file: ../src/jq.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/jq.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/jq.d" -MT"src/jq.d" -o "src/jq.o" "../src/jq.c"
+../src/jq.c: In function 'ShowJQ':
+../src/jq.c:19:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(70,2,"ug/m3",16);
+  ^
+In file included from ../src/jq.h:12:0,
+                 from ../src/jq.c:3:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+'Finished building: ../src/jq.c'
+' '
+'Building target: top.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../top_bsp/ps7_cortexa9_0/lib -o "top.elf"  ./src/asr.o ./src/dht.o ./src/jq.o ./src/main.o ./src/oled.o ./src/pm.o ./src/tts.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: top.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size top.elf  |tee "top.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30184	   3648	  22564	  56396	   dc4c	top.elf
+'Finished building: top.elf.size'
+' '
+15:19:37 **** Clean-only build of configuration Debug for project top ****
+make clean 
+rm -rf  ./src/asr.o ./src/dht.o ./src/jq.o ./src/main.o ./src/oled.o ./src/pm.o ./src/tts.o  ./src/asr.d ./src/dht.d ./src/jq.d ./src/main.d ./src/oled.d ./src/pm.d ./src/tts.d  top.elf.size  top.elf
+' '
+15:19:38 **** Auto Build of configuration Debug for project top ****
+make all 
+'Building file: ../src/asr.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/asr.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/asr.d" -MT"src/asr.d" -o "src/asr.o" "../src/asr.c"
+In file included from ../src/asr.c:7:0:
+../src/asr.h:12:20: fatal error: THread.h: No such file or directory
+ #include "THread.h"
+                    ^
+compilation terminated.
+make: *** [src/asr.o] ´íÎó 1
+15:19:47 **** Auto Build of configuration Debug for project top ****
+make all 
+'Building file: ../src/asr.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/asr.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/asr.d" -MT"src/asr.d" -o "src/asr.o" "../src/asr.c"
+In file included from ../src/asr.c:7:0:
+../src/asr.h:12:17: fatal error: dht.h: No such file or directory
+ #include "dht.h"
+                 ^
+compilation terminated.
+make: *** [src/asr.o] ´íÎó 1
+15:19:53 **** Auto Build of configuration Debug for project top ****
+make all 
+'Building file: ../src/asr.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/asr.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/asr.d" -MT"src/asr.d" -o "src/asr.o" "../src/asr.c"
+In file included from ../src/asr.c:7:0:
+../src/asr.h:12:17: fatal error: dht.h: No such file or directory
+ #include "dht.h"
+                 ^
+compilation terminated.
+make: *** [src/asr.o] ´íÎó 1
+15:20:12 **** Clean-only build of configuration Debug for project top ****
+make clean 
+rm -rf  ./src/asr.o ./src/dht.o ./src/jq.o ./src/main.o ./src/oled.o ./src/pm.o ./src/tts.o  ./src/asr.d ./src/dht.d ./src/jq.d ./src/main.d ./src/oled.d ./src/pm.d ./src/tts.d  top.elf.size  top.elf
+' '
+15:20:13 **** Auto Build of configuration Debug for project top ****
+make all 
+'Building file: ../src/asr.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/asr.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/asr.d" -MT"src/asr.d" -o "src/asr.o" "../src/asr.c"
+'Finished building: ../src/asr.c'
+' '
+'Building file: ../src/dht.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dht.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/dht.d" -MT"src/dht.d" -o "src/dht.o" "../src/dht.c"
+'Finished building: ../src/dht.c'
+' '
+'Building file: ../src/jq.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/jq.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/jq.d" -MT"src/jq.d" -o "src/jq.o" "../src/jq.c"
+../src/jq.c: In function 'ShowJQ':
+../src/jq.c:19:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(70,2,"ug/m3",16);
+  ^
+In file included from ../src/jq.h:12:0,
+                 from ../src/jq.c:3:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+'Finished building: ../src/jq.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c:57:20: fatal error: THread.h: No such file or directory
+ #include "THread.h"
+                    ^
+compilation terminated.
+make: *** [src/main.o] ´íÎó 1
+15:20:25 **** Auto Build of configuration Debug for project top ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:72:3: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+   sleep(1);
+   ^
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/oled.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/oled.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/oled.d" -MT"src/oled.d" -o "src/oled.o" "../src/oled.c"
+../src/oled.c: In function 'OLED_Init':
+../src/oled.c:228:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(50000);
+  ^
+'Finished building: ../src/oled.c'
+' '
+'Building file: ../src/pm.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pm.d" -MT"src/pm.d" -o "src/pm.o" "../src/pm.c"
+../src/pm.c: In function 'ShowPM':
+../src/pm.c:15:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  int pm25 = Xil_In32(XPAR_PM_S00_AXI_BASEADDR);
+  ^
+../src/pm.c:19:5: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+     OLED_ShowString(5,1,"PM2.5:",16);
+     ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:20:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(5,3,"PM10:",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:21:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(5,5,"PM1.0:",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:25:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(85,1,"ug/m3",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:26:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(85,3,"ug/m3",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+../src/pm.c:27:2: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+  OLED_ShowString(85,5,"ug/m3",16);
+  ^
+In file included from ../src/pm.h:11:0,
+                 from ../src/pm.c:10:
+../src/oled.h:38:6: note: expected 'u8 *' but argument is of type 'char *'
+ void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 sizey);
+      ^
+'Finished building: ../src/pm.c'
+' '
+'Building file: ../src/tts.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/tts.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/tts.d" -MT"src/tts.d" -o "src/tts.o" "../src/tts.c"
+../src/tts.c: In function 'Send_TTS':
+../src/tts.c:24:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+'Finished building: ../src/tts.c'
+' '
+'Building target: top.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../top_bsp/ps7_cortexa9_0/lib -o "top.elf"  ./src/asr.o ./src/dht.o ./src/jq.o ./src/main.o ./src/oled.o ./src/pm.o ./src/tts.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: top.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size top.elf  |tee "top.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30184	   3648	  22564	  56396	   dc4c	top.elf
+'Finished building: top.elf.size'
+' '
+15:20:39 **** Auto Build of configuration Debug for project top ****
+make all 
+'Building file: ../src/tts.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/tts.o" -I../../top_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/tts.d" -MT"src/tts.d" -o "src/tts.o" "../src/tts.c"
+../src/tts.c: In function 'Send_TTS':
+../src/tts.c:24:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+'Finished building: ../src/tts.c'
+' '
+'Building target: top.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../top_bsp/ps7_cortexa9_0/lib -o "top.elf"  ./src/asr.o ./src/dht.o ./src/jq.o ./src/main.o ./src/oled.o ./src/pm.o ./src/tts.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: top.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size top.elf  |tee "top.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30184	   3648	  22564	  56396	   dc4c	top.elf
+'Finished building: top.elf.size'
+' '

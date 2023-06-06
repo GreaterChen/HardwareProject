@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;top/src/jiaquan(1).c&apos; to &apos;jq&apos;" description="Rename resource &apos;jiaquan(1).c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/jiaquan(1).c" name="jq" stamp="1686029502616" updateReferences="true"/>
-</session>
