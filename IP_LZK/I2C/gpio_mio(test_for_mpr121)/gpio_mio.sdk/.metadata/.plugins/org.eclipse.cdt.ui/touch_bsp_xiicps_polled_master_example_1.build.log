@@ -1,0 +1,21 @@
+16:15:22 **** Auto Build of configuration Debug for project touch_bsp_xiicps_polled_master_example_1 ****
+make all 
+'Building file: ../src/xiicps_polled_master_example.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xiicps_polled_master_example.o" -I../../touch_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xiicps_polled_master_example.d" -MT"src/xiicps_polled_master_example.d" -o "src/xiicps_polled_master_example.o" "../src/xiicps_polled_master_example.c"
+'Finished building: ../src/xiicps_polled_master_example.c'
+' '
+'Building target: touch_bsp_xiicps_polled_master_example_1.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../touch_bsp/ps7_cortexa9_0/lib -o "touch_bsp_xiicps_polled_master_example_1.elf"  ./src/xiicps_polled_master_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: touch_bsp_xiicps_polled_master_example_1.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size touch_bsp_xiicps_polled_master_example_1.elf  |tee "touch_bsp_xiicps_polled_master_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28972	   1168	  22900	  53040	   cf30	touch_bsp_xiicps_polled_master_example_1.elf
+'Finished building: touch_bsp_xiicps_polled_master_example_1.elf.size'
+' '
+
+16:15:23 Build Finished (took 872ms)
+

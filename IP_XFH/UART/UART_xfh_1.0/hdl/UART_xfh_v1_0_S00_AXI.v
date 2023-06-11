@@ -403,7 +403,6 @@
              begin
                  slv_reg0[7:0] <=message;
                  slv_reg1[7:0] <=over;
-    
               end
         end   
 	// User logic ends

@@ -1,0 +1,12 @@
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source D:/study/Grade3/hardware/HardwareProject/IP_CLB/managed_ip_project/managed_ip_project.hw/webtalk/labtool_webtalk.tcl -notrace
+
+    while executing
+"webtalk_transmit -clientid 1872212022 -regid "" -xml D:/study/Grade3/hardware/HardwareProject/IP_CLB/managed_ip_project/managed_ip_project.hw/webtalk/..."
+    (file "D:/study/Grade3/hardware/HardwareProject/IP_CLB/managed_ip_project/managed_ip_project.hw/webtalk/labtool_webtalk.tcl" line 26)
+INFO: [Common 17-206] Exiting Webtalk at Sun Jun 11 02:32:01 2023...

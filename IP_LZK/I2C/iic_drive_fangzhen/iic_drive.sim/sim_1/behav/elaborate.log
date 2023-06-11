@@ -1,0 +1,16 @@
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 5f59bd7981954ee7878fcb4f9f26fd5f --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_iic_drive_behav xil_defaultlib.tb_iic_drive xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "F:/ZYNQ/lzk_iic_fangzhen/iic_drive/iic_drive.srcs/sources_1/new/iic_drive.v" Line 1. Module iic_drive(SLAVE_ADDR=7'b1010000,CLK_FREQ=26'b10111110101111000010000000,I2C_FREQ=18'b111101000010010000) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/ZYNQ/lzk_iic_fangzhen/iic_drive/iic_drive.srcs/sources_1/new/iic_drive.v" Line 1. Module iic_drive(SLAVE_ADDR=7'b1010000,CLK_FREQ=26'b10111110101111000010000000,I2C_FREQ=18'b111101000010010000) doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.iic_drive(SLAVE_ADDR=7'b1010000,...
+Compiling module xil_defaultlib.tb_iic_drive
+Compiling module xil_defaultlib.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot tb_iic_drive_behav

@@ -18,7 +18,7 @@ reg         s_start = 0;
 
 always  @(posedge   clk or negedge reset)begin
     if(reset == 0)begin
-        sclk <= 0;
+        sclk <= 1;
         tx_state <= 0;
         tx_done <= 1;
         s_start <= 1;
@@ -35,16 +35,16 @@ always  @(posedge   clk or negedge reset)begin
         if(div == 64)begin
             case(tx_state)
                 1,3,5,7,9,11,13:begin
-                    sclk<=0;
+                    sclk<=1;
                     tx_state<=tx_state+1;
                     shift_in_reg <= shift_in_reg << 1;
                 end
                 0,2,4,6,8,10,12,14:begin
-                    sclk<=1;
+                    sclk<=0;
                     tx_state<=tx_state+1;
                 end
                 15:begin
-                    sclk<=0;
+                    sclk<=1;
                     tx_state<=0;
                     shift_in_reg <= shift_in_reg << 1;
                     tx_done<=1;

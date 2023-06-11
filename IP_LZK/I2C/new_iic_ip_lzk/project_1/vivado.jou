@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Sun Jun 11 09:21:30 2023
+# Process ID: 31100
+# Log file: F:/ZYNQ/new_iic_ip_lzk/project_1/vivado.log
+# Journal file: F:/ZYNQ/new_iic_ip_lzk/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/ZYNQ/new_iic_ip_lzk/project_1/project_1.xpr
+open_bd_design {F:/ZYNQ/new_iic_ip_lzk/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd}

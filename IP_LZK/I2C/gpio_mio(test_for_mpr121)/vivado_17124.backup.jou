@@ -1,0 +1,196 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Tue May 23 13:37:24 2023
+# Process ID: 17216
+# Log file: F:/ZYNQ/gpio_mio/vivado.log
+# Journal file: F:/ZYNQ/gpio_mio\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/ZYNQ/gpio_mio/gpio_mio.xpr
+synth_design -rtl -name rtl_1
+open_hw
+connect_hw_server -url localhost:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210512180215]
+set_property PARAM.FREQUENCY 10000000 [get_hw_targets */xilinx_tcf/Digilent/210512180215]
+open_hw_target
+set_property PROGRAM.FILE {F:/ZYNQ/gpio_mio/gpio_mio.runs/impl_1/system_wrapper.bit} [lindex [get_hw_devices] 1]
+current_hw_device [lindex [get_hw_devices] 1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 1]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {F:/ZYNQ/gpio_mio/gpio_mio.runs/impl_1/system_wrapper.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+refresh_hw_device [lindex [get_hw_devices] 1]
+launch_sdk -workspace F:/ZYNQ/gpio_mio/gpio_mio.sdk -hwspec F:/ZYNQ/gpio_mio/gpio_mio.sdk/system_wrapper.hdf
+close_hw_target
+disconnect_hw_server localhost:3121
+connect_hw_server -url localhost:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210512180215]
+set_property PARAM.FREQUENCY 10000000 [get_hw_targets */xilinx_tcf/Digilent/210512180215]
+open_hw_target
+set_property PROGRAM.FILE {F:/ZYNQ/gpio_mio/gpio_mio.runs/impl_1/system_wrapper.bit} [lindex [get_hw_devices] 1]
+current_hw_device [lindex [get_hw_devices] 1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 1]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {F:/ZYNQ/gpio_mio/gpio_mio.runs/impl_1/system_wrapper.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+refresh_hw_device [lindex [get_hw_devices] 1]
+launch_sdk -workspace F:/ZYNQ/gpio_mio/gpio_mio.sdk -hwspec F:/ZYNQ/gpio_mio/gpio_mio.sdk/system_wrapper.hdf
+close_hw_target
+disconnect_hw_server localhost:3121
+connect_hw_server -url localhost:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210512180215]
+set_property PARAM.FREQUENCY 10000000 [get_hw_targets */xilinx_tcf/Digilent/210512180215]
+open_hw_target
+set_property PROGRAM.FILE {F:/ZYNQ/gpio_mio/gpio_mio.runs/impl_1/system_wrapper.bit} [lindex [get_hw_devices] 1]
+current_hw_device [lindex [get_hw_devices] 1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 1]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {F:/ZYNQ/gpio_mio/gpio_mio.runs/impl_1/system_wrapper.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+refresh_hw_device [lindex [get_hw_devices] 1]
+launch_sdk -workspace F:/ZYNQ/gpio_mio/gpio_mio.sdk -hwspec F:/ZYNQ/gpio_mio/gpio_mio.sdk/system_wrapper.hdf
+close_hw_target
+disconnect_hw_server localhost:3121
+connect_hw_server -url localhost:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210512180215]
+set_property PARAM.FREQUENCY 10000000 [get_hw_targets */xilinx_tcf/Digilent/210512180215]
+open_hw_target
+set_property PROGRAM.FILE {F:/ZYNQ/gpio_mio/gpio_mio.runs/impl_1/system_wrapper.bit} [lindex [get_hw_devices] 1]
+current_hw_device [lindex [get_hw_devices] 1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 1]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {F:/ZYNQ/gpio_mio/gpio_mio.runs/impl_1/system_wrapper.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+refresh_hw_device [lindex [get_hw_devices] 1]
+launch_sdk -workspace F:/ZYNQ/gpio_mio/gpio_mio.sdk -hwspec F:/ZYNQ/gpio_mio/gpio_mio.sdk/system_wrapper.hdf
+close_hw_target
+disconnect_hw_server localhost:3121
+connect_hw_server -url localhost:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210512180215]
+set_property PARAM.FREQUENCY 10000000 [get_hw_targets */xilinx_tcf/Digilent/210512180215]
+open_hw_target
+set_property PROGRAM.FILE {F:/ZYNQ/gpio_mio/gpio_mio.runs/impl_1/system_wrapper.bit} [lindex [get_hw_devices] 1]
+current_hw_device [lindex [get_hw_devices] 1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 1]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {F:/ZYNQ/gpio_mio/gpio_mio.runs/impl_1/system_wrapper.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+refresh_hw_device [lindex [get_hw_devices] 1]
+launch_sdk -workspace F:/ZYNQ/gpio_mio/gpio_mio.sdk -hwspec F:/ZYNQ/gpio_mio/gpio_mio.sdk/system_wrapper.hdf
+close_hw_target
+disconnect_hw_server localhost:3121
+connect_hw_server -url localhost:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210512180215]
+set_property PARAM.FREQUENCY 10000000 [get_hw_targets */xilinx_tcf/Digilent/210512180215]
+open_hw_target
+set_property PROGRAM.FILE {F:/ZYNQ/gpio_mio/gpio_mio.runs/impl_1/system_wrapper.bit} [lindex [get_hw_devices] 1]
+current_hw_device [lindex [get_hw_devices] 1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 1]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {F:/ZYNQ/gpio_mio/gpio_mio.runs/impl_1/system_wrapper.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+refresh_hw_device [lindex [get_hw_devices] 1]
+launch_sdk -workspace F:/ZYNQ/gpio_mio/gpio_mio.sdk -hwspec F:/ZYNQ/gpio_mio/gpio_mio.sdk/system_wrapper.hdf
+close_hw_target
+disconnect_hw_server localhost:3121
+connect_hw_server -url localhost:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210512180215]
+set_property PARAM.FREQUENCY 10000000 [get_hw_targets */xilinx_tcf/Digilent/210512180215]
+open_hw_target
+set_property PROGRAM.FILE {F:/ZYNQ/gpio_mio/gpio_mio.runs/impl_1/system_wrapper.bit} [lindex [get_hw_devices] 1]
+current_hw_device [lindex [get_hw_devices] 1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 1]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {F:/ZYNQ/gpio_mio/gpio_mio.runs/impl_1/system_wrapper.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+refresh_hw_device [lindex [get_hw_devices] 1]
+launch_sdk -workspace F:/ZYNQ/gpio_mio/gpio_mio.sdk -hwspec F:/ZYNQ/gpio_mio/gpio_mio.sdk/system_wrapper.hdf
+close_hw_target
+disconnect_hw_server localhost:3121
+connect_hw_server -url localhost:3121
+disconnect_hw_server localhost:3121
+connect_hw_server -url localhost:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210512180215]
+set_property PARAM.FREQUENCY 10000000 [get_hw_targets */xilinx_tcf/Digilent/210512180215]
+open_hw_target
+set_property PROGRAM.FILE {F:/ZYNQ/gpio_mio/gpio_mio.runs/impl_1/system_wrapper.bit} [lindex [get_hw_devices] 1]
+current_hw_device [lindex [get_hw_devices] 1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 1]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {F:/ZYNQ/gpio_mio/gpio_mio.runs/impl_1/system_wrapper.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+refresh_hw_device [lindex [get_hw_devices] 1]
+launch_sdk -workspace F:/ZYNQ/gpio_mio/gpio_mio.sdk -hwspec F:/ZYNQ/gpio_mio/gpio_mio.sdk/system_wrapper.hdf
+close_hw_target
+disconnect_hw_server localhost:3121
+connect_hw_server -url localhost:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210512180215]
+set_property PARAM.FREQUENCY 10000000 [get_hw_targets */xilinx_tcf/Digilent/210512180215]
+open_hw_target
+set_property PROGRAM.FILE {F:/ZYNQ/gpio_mio/gpio_mio.runs/impl_1/system_wrapper.bit} [lindex [get_hw_devices] 1]
+current_hw_device [lindex [get_hw_devices] 1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 1]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {F:/ZYNQ/gpio_mio/gpio_mio.runs/impl_1/system_wrapper.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+refresh_hw_device [lindex [get_hw_devices] 1]
+launch_sdk -workspace F:/ZYNQ/gpio_mio/gpio_mio.sdk -hwspec F:/ZYNQ/gpio_mio/gpio_mio.sdk/system_wrapper.hdf
+close_hw_target
+disconnect_hw_server localhost:3121
+connect_hw_server -url localhost:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210512180215]
+set_property PARAM.FREQUENCY 10000000 [get_hw_targets */xilinx_tcf/Digilent/210512180215]
+open_hw_target
+set_property PROGRAM.FILE {F:/ZYNQ/gpio_mio/gpio_mio.runs/impl_1/system_wrapper.bit} [lindex [get_hw_devices] 1]
+current_hw_device [lindex [get_hw_devices] 1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 1]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {F:/ZYNQ/gpio_mio/gpio_mio.runs/impl_1/system_wrapper.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+refresh_hw_device [lindex [get_hw_devices] 1]
+launch_sdk -workspace F:/ZYNQ/gpio_mio/gpio_mio.sdk -hwspec F:/ZYNQ/gpio_mio/gpio_mio.sdk/system_wrapper.hdf
+close_hw_target
+disconnect_hw_server localhost:3121
+connect_hw_server -url localhost:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210512180215]
+set_property PARAM.FREQUENCY 10000000 [get_hw_targets */xilinx_tcf/Digilent/210512180215]
+open_hw_target
+set_property PROGRAM.FILE {F:/ZYNQ/gpio_mio/gpio_mio.runs/impl_1/system_wrapper.bit} [lindex [get_hw_devices] 1]
+current_hw_device [lindex [get_hw_devices] 1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 1]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {F:/ZYNQ/gpio_mio/gpio_mio.runs/impl_1/system_wrapper.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+refresh_hw_device [lindex [get_hw_devices] 1]
+launch_sdk -workspace F:/ZYNQ/gpio_mio/gpio_mio.sdk -hwspec F:/ZYNQ/gpio_mio/gpio_mio.sdk/system_wrapper.hdf
+close_hw_target
+open_run synth_1 -name synth_1
+disconnect_hw_server localhost:3121
+connect_hw_server -url localhost:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210512180215]
+set_property PARAM.FREQUENCY 10000000 [get_hw_targets */xilinx_tcf/Digilent/210512180215]
+open_hw_target
+set_property PROGRAM.FILE {F:/ZYNQ/gpio_mio/gpio_mio.runs/impl_1/system_wrapper.bit} [lindex [get_hw_devices] 1]
+current_hw_device [lindex [get_hw_devices] 1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 1]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {F:/ZYNQ/gpio_mio/gpio_mio.runs/impl_1/system_wrapper.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+refresh_hw_device [lindex [get_hw_devices] 1]
+launch_sdk -workspace F:/ZYNQ/gpio_mio/gpio_mio.sdk -hwspec F:/ZYNQ/gpio_mio/gpio_mio.sdk/system_wrapper.hdf
+close_hw_target
+disconnect_hw_server localhost:3121
+connect_hw_server -url localhost:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210512180215]
+set_property PARAM.FREQUENCY 10000000 [get_hw_targets */xilinx_tcf/Digilent/210512180215]
+open_hw_target
+set_property PROGRAM.FILE {F:/ZYNQ/gpio_mio/gpio_mio.runs/impl_1/system_wrapper.bit} [lindex [get_hw_devices] 1]
+current_hw_device [lindex [get_hw_devices] 1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 1]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {F:/ZYNQ/gpio_mio/gpio_mio.runs/impl_1/system_wrapper.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+refresh_hw_device [lindex [get_hw_devices] 1]
+launch_sdk -workspace F:/ZYNQ/gpio_mio/gpio_mio.sdk -hwspec F:/ZYNQ/gpio_mio/gpio_mio.sdk/system_wrapper.hdf

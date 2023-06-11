@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Webtalk v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# 
+# Start of session at: Mon May 08 18:25:29 2023
+# Process ID: 29212
+# Log file: F:/ZYNQ/gpio_mio/gpio_mio.sdk/webtalk/webtalk.log
+# Journal file: F:/ZYNQ/gpio_mio/gpio_mio.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl
